@@ -594,6 +594,7 @@ data:extend(
         percent = 30
       }
     },
+    fast_replaceable_group = "boiler",
     collision_box = {{-1.29, -0.79}, {1.29, 0.79}},
     selection_box = {{-1.5, -1}, {1.5, 1}},
     target_temperature = 375,

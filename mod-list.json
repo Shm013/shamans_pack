@@ -21,10 +21,6 @@
       "enabled": true
     },
     {
-      "name": "bobinserters",
-      "enabled": true
-    },
-    {
       "name": "boblibrary",
       "enabled": true
     },
@@ -38,42 +34,46 @@
     },
     {
       "name": "bobmining",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "bobmodules",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "bobores",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "bobplates",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "bobpower",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "bobrevamp",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "bobtech",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "bobvehicleequipment",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "bobwarfare",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "clock",
+      "enabled": false
+    },
+    {
+      "name": "shmnoinserter",
       "enabled": true
     }
   ]

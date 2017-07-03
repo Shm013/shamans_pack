@@ -1,4 +1,7 @@
 data.raw["player"]["player"].inventory_size = settings.startup["bobmods-plates-inventorysize"].value
+if data.raw["god-controller"] and data.raw["god-controller"]["default"] then
+  data.raw["god-controller"]["default"].inventory_size = settings.startup["bobmods-plates-inventorysize"].value
+end
 
 
 -- Stack Sizes
