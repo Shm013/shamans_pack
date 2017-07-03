@@ -1,0 +1,264 @@
+{
+  "startup": {
+    "bobmods-assembly-chemicalplants": {
+      "value": true
+    },
+    "bobmods-assembly-electrolysers": {
+      "value": true
+    },
+    "bobmods-assembly-electronicmachines": {
+      "value": true
+    },
+    "bobmods-assembly-furnaces": {
+      "value": true
+    },
+    "bobmods-assembly-multipurposefurnaces": {
+      "value": true
+    },
+    "bobmods-assembly-oilrefineries": {
+      "value": true
+    },
+    "bobmods-enemies-aliensdropartifacts": {
+      "value": true
+    },
+    "bobmods-enemies-enableartifacts": {
+      "value": false
+    },
+    "bobmods-enemies-enablenewartifacts": {
+      "value": false
+    },
+    "bobmods-enemies-enablesmallartifacts": {
+      "value": false
+    },
+    "bobmods-inserters-long2": {
+      "value": true
+    },
+    "bobmods-inserters-more2": {
+      "value": true
+    },
+    "bobmods-logistics-drainlessinserters": {
+      "value": false
+    },
+    "bobmods-logistics-extremelyfastbelt": {
+      "value": true
+    },
+    "bobmods-logistics-flyingrobotframes": {
+      "value": true
+    },
+    "bobmods-logistics-roboportrecipeupdate": {
+      "value": true
+    },
+    "bobmods-logistics-robotparts": {
+      "value": true
+    },
+    "bobmods-logistics-robotrequireprevious": {
+      "value": true
+    },
+    "bobmods-mining-areadrills": {
+      "value": true
+    },
+    "bobmods-mining-miningaxes": {
+      "value": true
+    },
+    "bobmods-mining-miningdrills": {
+      "value": true
+    },
+    "bobmods-mining-pumpjacks": {
+      "value": true
+    },
+    "bobmods-mining-waterminers": {
+      "value": true
+    },
+    "bobmods-modules-enablegodmodules": {
+      "value": false
+    },
+    "bobmods-modules-enablegreenmodules": {
+      "value": true
+    },
+    "bobmods-modules-enableproductivitylimitation": {
+      "value": true
+    },
+    "bobmods-modules-enablerawproductivitymodules": {
+      "value": true
+    },
+    "bobmods-modules-enablerawspeedmodules": {
+      "value": true
+    },
+    "bobmods-modules-perlevel-bonus-consumption": {
+      "value": 0.1
+    },
+    "bobmods-modules-perlevel-bonus-pollution": {
+      "value": 0.15
+    },
+    "bobmods-modules-perlevel-bonus-pollutioncreate": {
+      "value": 0.5
+    },
+    "bobmods-modules-perlevel-bonus-productivity": {
+      "value": 0.05
+    },
+    "bobmods-modules-perlevel-bonus-speed": {
+      "value": 0.2
+    },
+    "bobmods-modules-perlevel-penalty-consumption": {
+      "value": 0.1
+    },
+    "bobmods-modules-perlevel-penalty-pollution": {
+      "value": 0.15
+    },
+    "bobmods-modules-perlevel-penalty-speed": {
+      "value": 0.05
+    },
+    "bobmods-modules-productivityhasspeed": {
+      "value": false
+    },
+    "bobmods-modules-start-bonus-consumption": {
+      "value": 0
+    },
+    "bobmods-modules-start-bonus-pollution": {
+      "value": 0
+    },
+    "bobmods-modules-start-bonus-pollutioncreate": {
+      "value": 0
+    },
+    "bobmods-modules-start-bonus-productivity": {
+      "value": 0
+    },
+    "bobmods-modules-start-bonus-speed": {
+      "value": 0
+    },
+    "bobmods-modules-start-penalty-consumption": {
+      "value": 0
+    },
+    "bobmods-modules-start-penalty-pollution": {
+      "value": 0
+    },
+    "bobmods-modules-start-penalty-speed": {
+      "value": 0.2
+    },
+    "bobmods-modules-transmitproductivity": {
+      "value": false
+    },
+    "bobmods-gems-amethystratio": {
+      "value": 0.5
+    },
+    "bobmods-gems-diamondratio": {
+      "value": 0.2
+    },
+    "bobmods-gems-emeraldratio": {
+      "value": 0.6
+    },
+    "bobmods-gems-rubyratio": {
+      "value": 1
+    },
+    "bobmods-gems-sapphireratio": {
+      "value": 0.8
+    },
+    "bobmods-gems-topazratio": {
+      "value": 0.4
+    },
+    "bobmods-ores-enablebauxite": {
+      "value": false
+    },
+    "bobmods-ores-enablecobaltore": {
+      "value": false
+    },
+    "bobmods-ores-enablegemsore": {
+      "value": false
+    },
+    "bobmods-ores-enablegoldore": {
+      "value": false
+    },
+    "bobmods-ores-enableleadore": {
+      "value": false
+    },
+    "bobmods-ores-enablenickelore": {
+      "value": false
+    },
+    "bobmods-ores-enablequartz": {
+      "value": false
+    },
+    "bobmods-ores-enablerutile": {
+      "value": false
+    },
+    "bobmods-ores-enablesilverore": {
+      "value": false
+    },
+    "bobmods-ores-enablesulfur": {
+      "value": false
+    },
+    "bobmods-ores-enablethoriumore": {
+      "value": false
+    },
+    "bobmods-ores-enabletinore": {
+      "value": false
+    },
+    "bobmods-ores-enabletungstenore": {
+      "value": false
+    },
+    "bobmods-ores-enablewaterores": {
+      "value": false
+    },
+    "bobmods-ores-enablezincore": {
+      "value": false
+    },
+    "bobmods-ores-enhancestone": {
+      "value": true
+    },
+    "bobmods-ores-gemprobability": {
+      "value": 0.05
+    },
+    "bobmods-ores-gemsfromotherores": {
+      "value": false
+    },
+    "bobmods-ores-infiniteore": {
+      "value": false
+    },
+    "bobmods-ores-leadgivesnickel": {
+      "value": false
+    },
+    "bobmods-ores-leadnickelratio": {
+      "value": 0.6
+    },
+    "bobmods-ores-nickelcobaltratio": {
+      "value": 0.4
+    },
+    "bobmods-ores-nickelgivescobalt": {
+      "value": false
+    },
+    "bobmods-ores-unsortedgemore": {
+      "value": false
+    },
+    "bobmods-plates-batteryupdate": {
+      "value": true
+    },
+    "bobmods-plates-cheapersteel": {
+      "value": true
+    },
+    "bobmods-plates-groundwater": {
+      "value": false
+    },
+    "bobmods-plates-inventorysize": {
+      "value": 60
+    },
+    "bobmods-plates-oreoverride": {
+      "value": true
+    },
+    "bobmods-plates-purewater": {
+      "value": true
+    },
+    "bobmods-plates-vanillabarrelling": {
+      "value": false
+    },
+    "bobmods-vehicleequipment-enablevehiclegrids": {
+      "value": true
+    },
+    "bobmods-warfare-drainlesslaserturrets": {
+      "value": false
+    },
+    "bobmods-warfare-robotupdate": {
+      "value": true
+    }
+  },
+  "runtime-global": {},
+  "runtime-per-user": {}
+}
