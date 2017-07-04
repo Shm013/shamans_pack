@@ -5,6 +5,10 @@
       "enabled": true
     },
     {
+      "name": "angelsinfiniteores",
+      "enabled": true
+    },
+    {
       "name": "bobassembly",
       "enabled": true
     },
@@ -34,43 +38,47 @@
     },
     {
       "name": "bobmining",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "bobmodules",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "bobores",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "bobplates",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "bobpower",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "bobrevamp",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "bobtech",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "bobvehicleequipment",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "bobwarfare",
-      "enabled": false
+      "enabled": true
     },
     {
-      "name": "clock",
-      "enabled": false
+      "name": "EvoGUI",
+      "enabled": true
+    },
+    {
+      "name": "ShinyBobGFX",
+      "enabled": true
     },
     {
       "name": "shmnoinserter",
