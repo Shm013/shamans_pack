@@ -113,6 +113,14 @@
       "enabled": true
     },
     {
+      "name": "brighter-locomotive-color-mask",
+      "enabled": true
+    },
+    {
+      "name": "brighter-train-stop-color-mask",
+      "enabled": true
+    },
+    {
       "name": "brighter-wagon-color-mask",
       "enabled": true
     },
@@ -127,6 +135,18 @@
     {
       "name": "locomotive-color",
       "enabled": true
+    },
+    {
+      "name": "long-loot-research",
+      "enabled": false
+    },
+    {
+      "name": "long-mine-research",
+      "enabled": false
+    },
+    {
+      "name": "long-pickup-research",
+      "enabled": false
     },
     {
       "name": "marathomaton",

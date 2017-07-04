@@ -32,13 +32,13 @@ end
 
 script.on_configuration_changed(function(event)
     for i, player in pairs(game.players) do
-        shmmods.tweaks.noinserter(event.player_index)
+        shmmods.tweaks.noinserter(player.index)
     end
 end)
 
 script.on_init(function(event)
     for i, player in pairs(game.players) do
-        shmmods.tweaks.noinserter(event.player_index)
+        shmmods.tweaks.noinserter(player.index)
     end
 end)
 
