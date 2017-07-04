@@ -1,0 +1,6 @@
+Version 0.1.1
+	- Changed mod name from "Train Stop Color" to "Color Picker - Train Stop", for better mod grouping.
+		- Mod ID is not affected.
+
+Version 0.1.0
+	- The first version.

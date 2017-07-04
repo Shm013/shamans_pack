@@ -1,0 +1,15 @@
+Version 0.2.1
+	- Changed mod name from "Wagon Color" to "Color Picker - Wagon", for better mod grouping.
+		- Mod ID is not affected.
+	- Updated the button to use the new cargo wagon icon.
+
+Version 0.2.0
+	- Updated for Factorio 0.15.
+	- Now requires Color Picker 0.3.0+ (From 0.1.1+)
+	- Converted the also_paste_color option in config.lua to mod settings. Please access it in Options > Mods > Per player.
+
+Version 0.1.1
+	- Fixed error when pasting from a wagon that doesn't have its color edited before.
+
+Version 0.1.0
+	- The first version.

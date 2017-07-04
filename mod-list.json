@@ -9,6 +9,10 @@
       "enabled": true
     },
     {
+      "name": "angelsaddons-pressuretanks",
+      "enabled": true
+    },
+    {
       "name": "angelsbioprocessing",
       "enabled": true
     },
@@ -109,11 +113,27 @@
       "enabled": true
     },
     {
+      "name": "brighter-wagon-color-mask",
+      "enabled": true
+    },
+    {
+      "name": "color-picker",
+      "enabled": true
+    },
+    {
       "name": "EvoGUI",
       "enabled": true
     },
     {
+      "name": "locomotive-color",
+      "enabled": true
+    },
+    {
       "name": "marathomaton",
+      "enabled": true
+    },
+    {
+      "name": "player-color",
       "enabled": true
     },
     {
@@ -130,6 +150,14 @@
     },
     {
       "name": "shmpresets",
+      "enabled": true
+    },
+    {
+      "name": "train-stop-color",
+      "enabled": true
+    },
+    {
+      "name": "wagon-color",
       "enabled": true
     }
   ]

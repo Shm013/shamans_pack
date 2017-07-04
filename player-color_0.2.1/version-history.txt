@@ -1,0 +1,15 @@
+Version 0.2.1
+	- Changed mod name from "Player Color" to "Color Picker - Player", for better mod grouping.
+		- Mod ID is not affected.
+	- Optimized the button image to decrease overall mod size.
+
+Version 0.2.0
+	- Updated for Factorio 0.15.
+	- Now requires Color Picker 0.3.0+ (From 0.1.1+)
+
+Version 0.1.1
+	- Updated for Factorio 0.14.
+	- Now requires Color Picker 0.1.1+ (from 0.1.0+)
+
+Version 0.1.0
+	- The first version.

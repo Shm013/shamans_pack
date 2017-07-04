@@ -1,0 +1,11 @@
+Version 0.2.1
+	- Changed mod name from "Locomotive Color" to "Color Picker - Locomotive", for better mod grouping.
+		- Mod ID is not affected.
+	- Updated the button to use the new locomotive icon.
+
+Version 0.2.0
+	- Updated for Factorio 0.15.
+	- Now requires Color Picker 0.3.0+ (From 0.1.1+)
+
+Version 0.1.0
+	- The first version.
