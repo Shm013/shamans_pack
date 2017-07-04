@@ -161,6 +161,10 @@
       "enabled": true
     },
     {
+      "name": "Fastforward-Start-2",
+      "enabled": true
+    },
+    {
       "name": "FNEI",
       "enabled": true
     },
@@ -242,6 +246,10 @@
     },
     {
       "name": "VersepellesHardStorage",
+      "enabled": true
+    },
+    {
+      "name": "vtk-cannon-turret",
       "enabled": true
     },
     {
