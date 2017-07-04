@@ -445,7 +445,11 @@
       "value": true
     }
   },
-  "runtime-global": {},
+  "runtime-global": {
+    "autodeconstruct-remove-target": {
+      "value": true
+    }
+  },
   "runtime-per-user": {
     "wagon-color_also-paste-color": {
       "value": true
