@@ -53,6 +53,10 @@
       "enabled": true
     },
     {
+      "name": "BetterIcons",
+      "enabled": true
+    },
+    {
       "name": "Bio_Industries",
       "enabled": true
     },
@@ -153,10 +157,6 @@
       "enabled": true
     },
     {
-      "name": "Diesel-Locomotive-no-replace",
-      "enabled": true
-    },
-    {
       "name": "EvoGUI",
       "enabled": true
     },
@@ -226,6 +226,10 @@
     },
     {
       "name": "textplates",
+      "enabled": true
+    },
+    {
+      "name": "TheFatController",
       "enabled": true
     },
     {
