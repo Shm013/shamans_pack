@@ -1,5 +1,23 @@
 {
   "startup": {
+    "AR-use-items-from-bioindustries": {
+      "value": true
+    },
+    "dectorio-signals": {
+      "value": true
+    },
+    "dectorio-landscaping": {
+      "value": true
+    },
+    "dectorio-walls": {
+      "value": true
+    },
+    "dectorio-flooring": {
+      "value": true
+    },
+    "dectorio-painted-concrete": {
+      "value": true
+    },
     "angels-infinite-ores-yield": {
       "value": 20
     },

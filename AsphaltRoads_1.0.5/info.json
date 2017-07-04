@@ -1,0 +1,9 @@
+{
+  "name": "AsphaltRoads",
+  "version": "1.0.5",
+  "title": "Asphalt Roads",
+  "author": "Arcitos",
+  "homepage": "",
+  "description": "Asphalt pavement for increased vehicle speed. Also includes fitting tiles for lane marking and hazard areas.",
+  "factorio_version": "0.15"
+}
