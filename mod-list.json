@@ -49,6 +49,10 @@
       "enabled": true
     },
     {
+      "name": "AutoDeconstruct",
+      "enabled": true
+    },
+    {
       "name": "bobassembly",
       "enabled": true
     },
@@ -130,6 +134,10 @@
     },
     {
       "name": "color-picker",
+      "enabled": true
+    },
+    {
+      "name": "DayNightExtender",
       "enabled": true
     },
     {
