@@ -1,11 +1,5 @@
 {
   "startup": {
-    "angels-enable-icon-scaling-silos": {
-      "value": false
-    },
-    "angels-enable-icon-scaling-warehouses": {
-      "value": false
-    },
     "angels-infinite-ores-yield": {
       "value": 20
     },
@@ -364,6 +358,36 @@
       "value": false
     },
     "bobmods-warfare-robotupdate": {
+      "value": true
+    },
+    "marathomaton_enable_all_bobartifacts": {
+      "value": true
+    },
+    "marathomaton_enable_ingot_explosion": {
+      "value": true
+    },
+    "marathomaton_expensive_steel": {
+      "value": true
+    },
+    "marathomaton_fixup_angels_smelting_tech_order": {
+      "value": true
+    },
+    "marathomaton_greenhouse_revamp": {
+      "value": true
+    },
+    "marathomaton_multiplier_adjust_factor": {
+      "value": 1
+    },
+    "marathomaton_no_bob_cheaper_steel": {
+      "value": true
+    },
+    "marathomaton_rebalance_angels_bio_artifacts": {
+      "value": true
+    },
+    "marathomaton_rebalance_bobmodules": {
+      "value": true
+    },
+    "marathomaton_wooden_board_requires_iron": {
       "value": true
     }
   },

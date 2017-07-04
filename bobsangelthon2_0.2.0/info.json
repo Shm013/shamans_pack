@@ -1,0 +1,22 @@
+{
+  "name": "bobsangelthon2",
+  "version": "0.2.0",
+  "factorio_version": "0.15",
+  "title": "Bob's Angelthon [0.15 Alpha]",
+  "author": "DarkShadow44",
+  "contact": "dark.shadow4@web.de",
+  "homepage": "",
+  "description": "Adjusts Angel's Mods to work well with Marathon and Bob's. Based upon the discontinued mod from Warringer. Due to different recipes in angels mods, a lot of the recipe-changes are disabled.",
+  "dependencies": [
+    "base >= 0.15.0",
+    "? angelsrefining >= 0.7.13",
+    "? angelssmelting >= 0.3.3",
+    "? angelsaddons-oresilos >= 0.3.1",
+    "? angelspetrochem >= 0.5.9",
+    "? angelsaddons-pressuretanks >= 0.2.0",
+    "? angelsaddons-warehouses >= 0.2.1",
+    "bobplates >= 0.15.11",
+	"bobelectronics >= 0.15.2",
+	"marathomaton >= 0.2.33"
+	]
+}

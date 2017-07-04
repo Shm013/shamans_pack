@@ -1,0 +1,58 @@
+Renamed to Marathomaton
+
+0.1.0 - boweiliu
+
+Changes:
+    - Almost complete internal overhaul.
+    - Additional support for bobs and angels.
+
+======
+
+0.5.4 - Afforess, contributions from KeepOnDigging
+
+Changes:
+    - BALANCE: Stone brick requires 5 stone to smelt (2 previously)
+    - BALANCE: Piercing Bullet Magazine requires 25 copper plate to smelt (5 previously)
+    - BALANCE: Rocket requires 10 iron plate to smelt (2 previously)
+    - BALANCE: Shotgun shell requires 10 copper plate, 10 iron plate to smelt (2 each, previously)
+    - BALANCE: Piercing shotgun shell requires 10 copper plate to smelt (2 previously)
+    - BALANCE: Basic transport belt requires 2 iron plate (1 previously)
+    - BALANCE: Basic inserter requires 2 iron plate (1 previously)
+    - BALANCE: Burner inserter requires 2 iron plate, 2 iron gear wheel (1 each previously)
+    - BALANCE: Pistol requires 25 copper plate, 25 iron plate (5 each, previously)
+    - BALANCE: Submachine gun requires 25 iron gear wheel, 25 copper plate, 25 iron plate (10, 5, 10 each previously, respectively)
+    - BALANCE: Basic Bullet Magazine requires 5 iron plates (2 previously)
+    - BALANCE: Basic armor requires 100 iron plates (40 previously)
+    - BALANCE: Radar requires 25 iron plates (10 previously)
+    - BALANCE: Small lamp requires 2 iron plates (1 previously)
+    - BALANCE: Pipe-to-ground requires 10 iron plates (5 previously)
+    - BALANCE: Gun turret requires 50 iron gear wheels, 50 copper plates, 50 iron plates (10, 10, 20 each previously, respectively)
+    - BALANCE: Sulfuric acid requires 2 iron plates (1 previously)
+    - BALANCE: Sulfur recipe returns 1 sulfur as a result instead of 2 previously
+    - BALANCE: Lubricant requires 2 heavy oil (1 previously)
+    - BALANCE: Long inserter requires 5 iron plate (1 previously)
+    - BALANCE: Straight rail requires 2 stone, 2 iron stick (1 each, previously)
+    - BALANCE: Curved rail requires 8 stone, 8 iron stick, (4 each, previously)
+    - BALANCE: Iron chest requires 20 iron plate (8 previously)
+    - BALANCE: Shotgun requires 25 iron plate, 10 iron gear wheels, 50 copper plate (15, 5, 10 each previously, respectively)
+    - BALANCE: Combat shotgun requires 10 iron gear wheels, 50 copper plate (5, 10 each previously, respectively)
+    - BALANCE: Advanced circuit requires 2 plastic (1 previously)
+    - BALANCE: Big electric pole requires 25 copper plate (5 previously)
+    - BALANCE: Substation requires 25 copper plate (5 previously)
+    - BALANCE: Medium electric pole requires 10 copper plate (2 previously)
+    - BALANCE: Low Density Structure requires 25 copper plate, 10 plastic (5 each, previously)
+    - BALANCE: Solid fuel provides 10MJ of power, down from 25MJ previously
+
+
+0.5.3 - Afforess
+
+Changes:
+    - BALANCE: Copper plate smelting time reduced by 10% over previous value (7MJ -> 6.33MJ)
+    - BALANCE: Copper plates required to create science pack 1 increased from 30 to 40
+    - UPDATE:  Factorio 0.12 supported.
+
+===========
+0.5.2 - Afforess
+
+Changes:
+    - BUGFIX: Pipe now stacks to 100, so it can serve as an input to assembling-machine for steam engines

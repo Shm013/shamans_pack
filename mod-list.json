@@ -9,14 +9,6 @@
       "enabled": true
     },
     {
-      "name": "angelsaddons-oresilos",
-      "enabled": true
-    },
-    {
-      "name": "angelsaddons-warehouses",
-      "enabled": true
-    },
-    {
       "name": "angelsbioprocessing",
       "enabled": true
     },
@@ -101,6 +93,10 @@
       "enabled": true
     },
     {
+      "name": "bobsangelthon2",
+      "enabled": true
+    },
+    {
       "name": "bobtech",
       "enabled": true
     },
@@ -114,6 +110,10 @@
     },
     {
       "name": "EvoGUI",
+      "enabled": true
+    },
+    {
+      "name": "marathomaton",
       "enabled": true
     },
     {
