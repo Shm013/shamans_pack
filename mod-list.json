@@ -53,6 +53,10 @@
       "enabled": true
     },
     {
+      "name": "Bio_Industries",
+      "enabled": true
+    },
+    {
       "name": "bobassembly",
       "enabled": true
     },
@@ -133,6 +137,10 @@
       "enabled": true
     },
     {
+      "name": "Chainsaw",
+      "enabled": true
+    },
+    {
       "name": "color-picker",
       "enabled": true
     },
@@ -145,11 +153,27 @@
       "enabled": true
     },
     {
+      "name": "Diesel-Locomotive-no-replace",
+      "enabled": true
+    },
+    {
       "name": "EvoGUI",
       "enabled": true
     },
     {
+      "name": "FNEI",
+      "enabled": true
+    },
+    {
+      "name": "helmod",
+      "enabled": true
+    },
+    {
       "name": "ItemCount",
+      "enabled": true
+    },
+    {
+      "name": "KS_Power",
       "enabled": true
     },
     {
@@ -166,6 +190,14 @@
     },
     {
       "name": "More_Floors",
+      "enabled": true
+    },
+    {
+      "name": "nixie-tubes",
+      "enabled": true
+    },
+    {
+      "name": "PersonalTeleporter",
       "enabled": true
     },
     {
@@ -189,6 +221,10 @@
       "enabled": true
     },
     {
+      "name": "Teleportation",
+      "enabled": true
+    },
+    {
       "name": "textplates",
       "enabled": true
     },
@@ -198,6 +234,10 @@
     },
     {
       "name": "VersepellesChunkMarkersPorted",
+      "enabled": true
+    },
+    {
+      "name": "VersepellesHardStorage",
       "enabled": true
     },
     {
