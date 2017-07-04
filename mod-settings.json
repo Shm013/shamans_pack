@@ -378,6 +378,42 @@
     "bobmods-warfare-robotupdate": {
       "value": true
     },
+    "long-reach-research_use-four-level-tech": {
+      "value": false
+    },
+    "long-reach-research_enable-long-reach-t5": {
+      "value": true
+    },
+    "long-reach-research_enable-long-reach-t6": {
+      "value": true
+    },
+    "long-reach-research_enable-long-build-t5": {
+      "value": true
+    },
+    "long-reach-research_enable-long-build-t6": {
+      "value": false
+    },
+    "long-mine-research_enable-long-mine": {
+      "value": true
+    },
+    "long-mine-research_enable-long-mine-t5": {
+      "value": true
+    },
+    "long-pickup-research_enable-long-pickup": {
+      "value": false
+    },
+    "long-pickup-research_enable-long-pickup-t5": {
+      "value": true
+    },
+    "long-loot-research_enable-long-loot": {
+      "value": false
+    },
+    "long-loot-research_expensive-technology": {
+      "value": false
+    },
+    "long-loot-research_enable-long-loot-t5": {
+      "value": true
+    },
     "marathomaton_enable_all_bobartifacts": {
       "value": true
     },

@@ -1,0 +1,39 @@
+
+1.0.6 changelog
+
+added Cobblestone Paths press R to change styles
+	Dry grass 
+	Grass
+	Sand 
+	Dirt 
+
+Added Redbrick tiles
+
+Added Asphalt line tiles
+	Vertical/Horizontal
+	Diagonal 
+	
+Added dark grey colored concrete
+
+tweaked black concrete to be actually black.
+
+bleached white concrete
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

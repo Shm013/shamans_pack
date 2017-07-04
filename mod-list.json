@@ -142,26 +142,22 @@
     },
     {
       "name": "ItemCount",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "locomotive-color",
       "enabled": true
     },
     {
-      "name": "long-loot-research",
-      "enabled": false
-    },
-    {
-      "name": "long-mine-research",
-      "enabled": false
-    },
-    {
-      "name": "long-pickup-research",
-      "enabled": false
+      "name": "long-reach-research",
+      "enabled": true
     },
     {
       "name": "marathomaton",
+      "enabled": true
+    },
+    {
+      "name": "More_Floors",
       "enabled": true
     },
     {
@@ -182,7 +178,7 @@
     },
     {
       "name": "shmpresets",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "textplates",

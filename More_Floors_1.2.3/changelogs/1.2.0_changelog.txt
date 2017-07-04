@@ -1,0 +1,4 @@
+# New in 1.2.0
+
+- Fixed conflict with for Alien Biomes mod (more floor tiles overiding alien biomes when removed)
+

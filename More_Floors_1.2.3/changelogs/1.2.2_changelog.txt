@@ -1,0 +1,6 @@
+# New in 1.2.0
+
+- Fixed base game files referenced name changes
+- Fixed new colored concrete tile sides
+- Removed edges on arrow grates
+
