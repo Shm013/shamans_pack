@@ -1,0 +1,23 @@
+[b][size=150]Infos[/size][/b]
+[list]
+[*]Type: Mod
+[*]Name: DayNightExtender 
+[*]Description: Increase the length of day and night cycle. Vanilla length is around 7 mins. The extender multiplies this by x4 to 28 mins. This multiplier is customizable in config.lua.
+[*]Tested-With-Factorio-Version: 0.13.0
+[*]Multiplayer compatible: not tested
+[*]Locale: none
+[*]Tags: Time, clock, day length, slowtime.
+[*]License: MIT.
+[*]Authors : Dark, Vizzy, Mikenlott, BinbinHfr
+[*]Portal download : https://mods.factorio.com/mods/binbinhfr/DayNightExtender[/list]
+
+[spoiler=To Use]The default, modded day/night length is 4x the vanilla length.
+
+Vanilla: 7 minutes for full day and night cycle 
+Modded: 28 minutes for full day and night cycle
+
+With the mod, the game-minutes are ticking close to real seconds.
+
+If you wish to change the modded values, you just have to change the value of day_length_multiplier in the config.lua file.[/spoiler]
+[spoiler=Limitations]- Can only increase day/night length in blocks of 7 minutes. Unfortunately decreasing the length or finer granularity is not possible.
+- If you are using a mod that display the clocl (like [url=https://forums.factorio.com/viewtopic.php?f=92&t=22822]TimeTools[/url], you will see that the clock is ticking slower and sometimes not very regularly. That's not a bug : DayNightExtender is constantly playing with the clock, freezing/unfreezing it, in order to give a fake slowtime effect.[/spoiler]
