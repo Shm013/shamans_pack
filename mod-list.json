@@ -5,7 +5,47 @@
       "enabled": true
     },
     {
+      "name": "angelsaddons-locales",
+      "enabled": true
+    },
+    {
+      "name": "angelsaddons-oresilos",
+      "enabled": true
+    },
+    {
+      "name": "angelsaddons-warehouses",
+      "enabled": true
+    },
+    {
+      "name": "angelsbioprocessing",
+      "enabled": true
+    },
+    {
+      "name": "angelscomponents",
+      "enabled": true
+    },
+    {
+      "name": "angelsexploration",
+      "enabled": true
+    },
+    {
       "name": "angelsinfiniteores",
+      "enabled": true
+    },
+    {
+      "name": "angelslogistics",
+      "enabled": true
+    },
+    {
+      "name": "angelspetrochem",
+      "enabled": true
+    },
+    {
+      "name": "angelsrefining",
+      "enabled": true
+    },
+    {
+      "name": "angelssmelting",
       "enabled": true
     },
     {
@@ -77,11 +117,19 @@
       "enabled": true
     },
     {
+      "name": "ShinyAngelGFX",
+      "enabled": true
+    },
+    {
       "name": "ShinyBobGFX",
       "enabled": true
     },
     {
       "name": "shmnoinserter",
+      "enabled": true
+    },
+    {
+      "name": "shmpresets",
       "enabled": true
     }
   ]

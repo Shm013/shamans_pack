@@ -1,5 +1,11 @@
 {
   "startup": {
+    "angels-enable-icon-scaling-silos": {
+      "value": false
+    },
+    "angels-enable-icon-scaling-warehouses": {
+      "value": false
+    },
     "angels-infinite-ores-yield": {
       "value": 20
     },
@@ -95,6 +101,18 @@
     },
     "angels-enableinfinitedarkmatter": {
       "value": true
+    },
+    "angels-enable-converter": {
+      "value": true
+    },
+    "angels-hide-converter": {
+      "value": true
+    },
+    "angels-enable-acids": {
+      "value": true
+    },
+    "angels-enable-auto-barreling": {
+      "value": false
     },
     "bobmods-assembly-chemicalplants": {
       "value": true
