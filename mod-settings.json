@@ -3,6 +3,18 @@
     "AR-use-items-from-bioindustries": {
       "value": true
     },
+    "BI_Bio_Cannon": {
+      "value": true
+    },
+    "BI_Bio_Fuel": {
+      "value": true
+    },
+    "BI_Recipe_Tweaks": {
+      "value": true
+    },
+    "BI_Alt_Solar_Farm_Image": {
+      "value": false
+    },
     "dectorio-signals": {
       "value": true
     },
@@ -17,6 +29,9 @@
     },
     "dectorio-painted-concrete": {
       "value": true
+    },
+    "Teleportation-telelogistics-enabled": {
+      "value": false
     },
     "angels-infinite-ores-yield": {
       "value": 20
@@ -448,9 +463,18 @@
   "runtime-global": {
     "autodeconstruct-remove-target": {
       "value": true
+    },
+    "Teleportation-all-beacons-for-all": {
+      "value": false
     }
   },
   "runtime-per-user": {
+    "Teleportation-page-size": {
+      "value": 20
+    },
+    "Teleportation-straight-jump-ignores-collisions": {
+      "value": false
+    },
     "wagon-color_also-paste-color": {
       "value": true
     }

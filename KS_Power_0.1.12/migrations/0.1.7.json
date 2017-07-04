@@ -1,0 +1,14 @@
+{
+  "entity":
+  [
+    [ "wind-turbine", "wind-turbine-2" ]
+  ],
+  "item":
+  [
+    [ "wind-turbine", "wind-turbine-2" ]
+  ],
+  "recipe":
+  [
+    [ "wind-turbine", "wind-turbine-2" ]
+  ]
+}
