@@ -20,3 +20,9 @@ if not shmmods.tweaks then shmmods.tweaks = {} end
 
 -- Recepies tweaks:
 bobmods.lib.recipe.add_new_ingredient("inserter", {"burner-inserter", 1} )
+
+-- Disable Flow control pipes & bob valve:
+data.raw.recipe["pipe-elbow"].enabled = false
+data.raw.recipe["pipe-junction"].enabled = false
+data.raw.recipe["pipe-straight"].enabled = false
+data.raw.recipe["bob-valve"].enabled = false
