@@ -1,15 +1,14 @@
 {
-    "name": "shmtweaks",
+    "name": "shmpresets",
     "version": "0.0.1",
     "factorio_version": "0.15",
-    "title": "Shaman's Tweaks",
+    "title": "Shaman's Map generation presets",
     "author": "shm13 (Nikolay Shamanovich)",
     "contact": "shm013@yandex.ru",
     "homepage": "https://github.com/Shm13",
-    "description": "Some small balance tweaks. Based on UnChained_Tweaks",
+    "description": "Map generation presets for Shaman's pack",
     "dependencies": [
         "base >= 0.15.0",
-        "boblibrary >= 0.15.8",
         "? marathomaton >= 0.2.39"
     ]
 }
