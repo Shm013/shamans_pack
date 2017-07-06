@@ -10,6 +10,7 @@
     "dependencies": [
         "base >= 0.15.0",
         "boblibrary >= 0.15.8",
+        "Bio_Industries >= 1.7.1",
         "? marathomaton >= 0.2.39"
     ]
 }
