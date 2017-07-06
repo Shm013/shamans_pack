@@ -229,6 +229,10 @@
       "enabled": true
     },
     {
+      "name": "shmsort",
+      "enabled": true
+    },
+    {
       "name": "shmtweaks",
       "enabled": true
     },
@@ -246,10 +250,6 @@
     },
     {
       "name": "train-stop-color",
-      "enabled": true
-    },
-    {
-      "name": "VersepellesChunkMarkersPorted",
       "enabled": true
     },
     {

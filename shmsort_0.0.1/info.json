@@ -1,0 +1,13 @@
+{
+    "name": "shmsort",
+    "version": "0.0.1",
+    "factorio_version": "0.15",
+    "title": "Shaman's Item sorting",
+    "author": "shm13 (Nikolay Shamanovich)",
+    "contact": "shm013@yandex.ru",
+    "homepage": "https://github.com/Shm13",
+    "description": "",
+    "dependencies": [
+        "base >= 0.15.0"
+    ]
+}
