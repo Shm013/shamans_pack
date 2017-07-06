@@ -6,7 +6,7 @@
     },
     {
       "name": "angelsaddons-locales",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "angelsaddons-pressuretanks",
@@ -82,7 +82,7 @@
     },
     {
       "name": "boblocale",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "boblogistics",
@@ -230,6 +230,10 @@
     },
     {
       "name": "shmsort",
+      "enabled": true
+    },
+    {
+      "name": "shmstorage",
       "enabled": true
     },
     {

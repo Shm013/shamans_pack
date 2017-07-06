@@ -1,5 +1,3 @@
-require("config")
-
 local ent
 local name
 
@@ -11,15 +9,15 @@ ent.minable.result = name
 ent.corpse = "medium-remnants"
 ent.collision_box = {{-0.75, -0.75}, {0.75, 0.75}}
 ent.selection_box = {{-1, -1}, {1, 1}}
-ent.icon = Mod_Name .. "/graphics/icons/" .. name .. ".png"
+ent.icon = "__shmstorage__/graphics/icons/" .. name .. ".png"
 ent.picture = 
 	{
-	  filename = Mod_Name .. "/graphics/entity/" .. name .. "/" .. name .. ".png",
+	  filename = "__shmstorage__/graphics/entity/" .. name .. "/" .. name .. ".png",
 	  width = 83,
 	  height = 59,
 	  shift = {0.5, 0.0}
 	}
-ent.inventory_size = wooden_crate_size
+ent.inventory_size = 16
 data:extend({ent})
 
 -- Basic Repository
@@ -30,13 +28,13 @@ ent.minable.result = name
 ent.corpse = "big-remnants"
 ent.collision_box = {{-1.4, -1.4}, {1.4, 1.4}}
 ent.selection_box = {{-1.5, -1.5}, {1.5, 1.5}}
-ent.icon = Mod_Name .. "/graphics/icons/" .. name .. ".png"
+ent.icon = "__shmstorage__/graphics/icons/" .. name .. ".png"
 ent.picture = 
 	{
-	  filename = Mod_Name .. "/graphics/entity/" .. name .. "/" .. name .. ".png",
+	  filename = "__shmstorage__/graphics/entity/" .. name .. "/" .. name .. ".png",
 	  width = 156,
 	  height = 127,
 	  shift = {0.95, 0.2}
 	}
-ent.inventory_size = basic_repository_size
+ent.inventory_size =  32
 data:extend({ent})

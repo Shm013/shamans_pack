@@ -1,0 +1,13 @@
+{
+    "name": "shmstorage",
+    "version": "0.0.1",
+    "factorio_version": "0.15",
+    "title": "Shaman's storage mod",
+    "author": "shm13 (Nikolay Shamanovich)",
+    "contact": "shm013@yandex.ru",
+    "homepage": "https://github.com/Shm13",
+    "description": "Add new crates and other storage stuff. Based on VersepellesHardStorage mod.",
+    "dependencies": [
+        "base >= 0.15.0"
+    ]
+}
