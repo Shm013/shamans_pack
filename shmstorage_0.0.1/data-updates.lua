@@ -15,7 +15,17 @@
 --    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-if not shmmods then shmmods = {} end
-if not shmmods.tweaks then shmmods.tweaks = {} end
+require("config")
 
 table.insert(data.raw["technology"]["steel-processing"].effects, {type = "unlock-recipe", recipe = "basic-repository"})
+
+
+data.raw["container"]["iron-crate"].inventory_size = shmmods.storage.iron_crate_size
+data.raw["container"]["wooden-chest"].inventory_size = shmmods.storage.wooden_chest_size
+data.raw["container"]["iron-chest"].inventory_size = shmmods.storage.iron_chest_size
+data.raw["container"]["steel-chest"].inventory_size = shmmods.storage.steel_chest_size
+data.raw["container"]["wooden-crate"].inventory_size = shmmods.storage.wooden_crate_size
+data.raw["container"]["basic-repository"].inventory_size = shmmods.storage.basic_repository_size
+data.raw["logistic-container"]["logistic-chest-passive-provider"].inventory_size = shmmods.storage.logistic_chest_size
+data.raw["logistic-container"]["logistic-chest-storage"].inventory_size = shmmods.storage.logistic_chest_size
+data.raw["logistic-container"]["logistic-chest-requester"].inventory_size = shmmods.storage.logistic_chest_size
