@@ -59,3 +59,19 @@ if data.raw["item"]["cellulose-fiber"] then data.raw["item"]["cellulose-fiber"].
 if data.raw["item"]["wood-pellets"] then data.raw["item"]["wood-pellets"].fuel_value = wood_pellets_energy_value end
 if data.raw["item"]["wood-bricks"] then data.raw["item"]["wood-bricks"].fuel_value = wood_bricks_energy_value end
 if data.raw["item"]["solid-fuel"] then data.raw["item"]["solid-fuel"].fuel_value = solid_fuel_energy_value end
+
+-- Trains:
+data.raw["locomotive"]["locomotive"].max_health = 1500
+data.raw["locomotive"]["bob-locomotive-2"].max_health = 2500
+data.raw["locomotive"]["bob-locomotive-3"].max_health = 5000
+
+-- disable armored trains:
+if data.raw["technology"]["bob-armoured-railway"] then
+   data.raw["technology"]["bob-armoured-railway"].enabled = false
+end
+
+
+if data.raw["technology"]["bob-armoured-railway-2"] then
+	data.raw["technology"]["bob-armoured-railway-2"].enabled = false
+end
+--
