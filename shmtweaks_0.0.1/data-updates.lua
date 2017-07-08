@@ -38,3 +38,9 @@ bobmods.lib.tech.remove_recipe_unlock("bob-solar-energy-2", "bi_solar_mat")
 data.raw["item"]["uranium-ore"].stack_size = 200
 data.raw["item"]["sulfur"].stack_size      = 200
 data.raw["item"]["plastic-bar"].stack_size = 200
+
+bobmods.lib.tech.remove_recipe_unlock("advanced-material-processing", "bi_steel_furnace_disassemble")
+bobmods.lib.tech.remove_recipe_unlock("automation-2", "bi_burner_mining_drill_disassemble")
+bobmods.lib.tech.remove_recipe_unlock("automation-2", "bi_stone_furnace_disassemble")
+bobmods.lib.tech.remove_recipe_unlock("automation-2", "bi_burner_inserter_disassemble")
+bobmods.lib.tech.remove_recipe_unlock("automation-2", "bi_long_handed_inserter_disassemble")
