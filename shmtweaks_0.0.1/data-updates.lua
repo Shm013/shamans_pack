@@ -18,6 +18,7 @@
 if not shmmods then shmmods = {} end
 if not shmmods.tweaks then shmmods.tweaks = {} end
 
+require("config")
 require("prototypes.recipes-updates")
 
 -- Recipes tweaks:
@@ -47,3 +48,14 @@ bobmods.lib.tech.remove_recipe_unlock("automation-2", "bi_burner_mining_drill_di
 bobmods.lib.tech.remove_recipe_unlock("automation-2", "bi_stone_furnace_disassemble")
 bobmods.lib.tech.remove_recipe_unlock("automation-2", "bi_burner_inserter_disassemble")
 bobmods.lib.tech.remove_recipe_unlock("automation-2", "bi_long_handed_inserter_disassemble")
+
+-- Energy capacity:
+if data.raw["item"]["fuel-cell"] then data.raw["item"]["fuel-cell"].fuel_value = fuel_cell_energy_value end
+if data.raw["item"]["seedling"] then data.raw["item"]["seedling"].fuel_value = seedling_energy_value end
+if data.raw["item"]["bi-woodpulp"] then data.raw["item"]["bi-woodpulp"].fuel_value = woodpulp_energy_value end
+if data.raw["item"]["bi-charcoal"] then data.raw["item"]["bi-charcoal"].fuel_value = charcoal_energy_value end
+if data.raw["item"]["pellet-coke"] then data.raw["item"]["pellet-coke"].fuel_value = pellet_coke_energy_value end
+if data.raw["item"]["cellulose-fiber"] then data.raw["item"]["cellulose-fiber"].fuel_value = cellulose_fiber_energy_value end
+if data.raw["item"]["wood-pellets"] then data.raw["item"]["wood-pellets"].fuel_value = wood_pellets_energy_value end
+if data.raw["item"]["wood-bricks"] then data.raw["item"]["wood-bricks"].fuel_value = wood_bricks_energy_value end
+if data.raw["item"]["solid-fuel"] then data.raw["item"]["solid-fuel"].fuel_value = solid_fuel_energy_value end
