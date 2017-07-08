@@ -241,6 +241,10 @@
       "enabled": true
     },
     {
+      "name": "TeksFox_nuclear",
+      "enabled": true
+    },
+    {
       "name": "Teleportation",
       "enabled": true
     },

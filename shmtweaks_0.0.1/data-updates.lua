@@ -89,3 +89,8 @@ data.raw["technology"]["angels-coal-processing-2"].effects = {
 
 -- Reduce asphalt cost
 data.raw["technology"]["Arci-asphalt"].unit.count = 200
+
+-- Bob power armor
+data.raw["technology"]["bob-power-armor-3"].icon = "__shmtweaks__/graphics/technology/power-armor-mk3.png"
+data.raw["technology"]["bob-power-armor-4"].icon = "__shmtweaks__/graphics/technology/power-armor-mk4.png"
+data.raw["technology"]["bob-power-armor-5"].icon = "__shmtweaks__/graphics/technology/power-armor-mk5.png"
