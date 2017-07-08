@@ -31,6 +31,7 @@ data.raw.recipe["bob-valve"].enabled = false
 
 -- Disable Bio solar farm:
 bobmods.lib.tech.remove_recipe_unlock("bob-solar-energy-4", "bi_bio_Solar_Farm")
+bobmods.lib.tech.remove_recipe_unlock("electric-pole-4", "bi_bio_Solar_Farm")
 
 -- Disable Musk flor:
 bobmods.lib.tech.remove_recipe_unlock("bob-solar-energy-2", "bi_solar_mat")
