@@ -28,5 +28,17 @@ shmmods.storage.wooden_crate_size = 30
 shmmods.storage.iron_crate_size = 40
 shmmods.storage.basic_repository_size = 50
 shmmods.storage.logistic_chest_size = 20
-shmmods.storage.car_size = 10
-shmmods.storage.car_tank = 10
+
+shmmods.storage.tank_size = 10
+shmmods.storage.bob_tank_2_size = 15
+shmmods.storage.bob_tank_3_size = 20
+shmmods.storage.car_size= 10
+--{{ Trains:
+shmmods.storage.cargo_wagon_size = 20 -- 40 in vanila
+shmmods.storage.cargo_wagon_size_MK2 = 40 -- 60 in bob
+shmmods.storage.cargo_wagon_size_MK3 = 100 -- 80 in bob
+
+shmmods.storage.crawler_size = 70 -- 768 in angel
+shmmods.storage.crawler_wagon_size = 46 -- 64 in angel
+shmmods.storage.crawler_bot_wagon_size = 70 -- 128 in angel
+--}}

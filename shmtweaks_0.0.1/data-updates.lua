@@ -32,3 +32,4 @@ bobmods.lib.tech.remove_recipe_unlock("bob-solar-energy-4", "bi_bio_Solar_Farm")
 
 -- Disable Musk flor:
 bobmods.lib.tech.remove_recipe_unlock("bob-solar-energy-2", "bi_solar_mat")
+

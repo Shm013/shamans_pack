@@ -257,10 +257,6 @@
       "enabled": true
     },
     {
-      "name": "VersepellesHardStorage",
-      "enabled": true
-    },
-    {
       "name": "vtk-cannon-turret",
       "enabled": true
     },
