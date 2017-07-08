@@ -33,3 +33,8 @@ bobmods.lib.tech.remove_recipe_unlock("bob-solar-energy-4", "bi_bio_Solar_Farm")
 -- Disable Musk flor:
 bobmods.lib.tech.remove_recipe_unlock("bob-solar-energy-2", "bi_solar_mat")
 
+-- Stack size:
+--data.raw["item"]["fluorite"].stack_size    = 200
+data.raw["item"]["uranium-ore"].stack_size = 200
+data.raw["item"]["sulfur"].stack_size      = 200
+data.raw["item"]["plastic-bar"].stack_size = 200
