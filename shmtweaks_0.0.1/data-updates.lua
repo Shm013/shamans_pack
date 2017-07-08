@@ -74,4 +74,18 @@ end
 if data.raw["technology"]["bob-armoured-railway-2"] then
 	data.raw["technology"]["bob-armoured-railway-2"].enabled = false
 end
---
+
+-- Remove pellet-coke
+data.raw["technology"]["angels-coal-processing-2"].effects = {
+	  {
+        type = "unlock-recipe",
+        recipe = "carbon-separation-1"
+      },
+	  {
+        type = "unlock-recipe",
+        recipe = "solid-coke-sulfur"
+      },
+}
+
+-- Reduce asphalt cost
+data.raw["technology"]["Arci-asphalt"].unit.count = 200
