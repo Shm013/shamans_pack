@@ -18,7 +18,9 @@
 if not shmmods then shmmods = {} end
 if not shmmods.tweaks then shmmods.tweaks = {} end
 
--- Recepies tweaks:
+require("prototypes.recipes-updates")
+
+-- Recipes tweaks:
 bobmods.lib.recipe.add_new_ingredient("inserter", {"burner-inserter", 1} )
 
 -- Disable Flow control pipes & bob valve:

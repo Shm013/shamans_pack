@@ -1,0 +1,69 @@
+--require("libs.recipe-functions")
+
+-- {{ Recipes update:
+
+-- Angels logistic:
+data.raw["recipe"]["crawler-wagon"].ingredients = {
+		{"cargo-wagon", 1},
+		{"steel-plate", 30},
+		{"iron-gear-wheel", 24},
+		{"electronic-circuit", 20},
+}
+
+data.raw["recipe"]["crawler-bot-wagon"].ingredients = {
+		{"crawler-wagon", 1},
+		{"steel-bearing", 32},
+		{"steel-gear-wheel", 48},
+		{"invar-alloy", 80},
+		{"electronic-circuit", 120},
+}
+
+data.raw["recipe"]["angels-crawler"].ingredients = {
+		{"engine-unit", 32},
+		{"steel-plate", 200},
+		{"electronic-circuit", 120},
+		{"iron-gear-wheel", 75},
+		{"invar-alloy", 120},
+		{"steel-bearing", 32},
+}
+
+
+--{{ Solar panels:
+bobmods.lib.recipe.remove_ingredient("solar-panel", "copper-plate")
+bobmods.lib.recipe.add_new_ingredient("solar-panel", {"silicon-wafer", 14})
+
+bobmods.lib.recipe.remove_ingredient("solar-panel-small", "copper-plate")
+bobmods.lib.recipe.add_new_ingredient("solar-panel-small", {"silicon-wafer", 7})
+
+bobmods.lib.recipe.remove_ingredient("solar-panel-large", "copper-plate")
+bobmods.lib.recipe.add_new_ingredient("solar-panel-large", {"silicon-wafer", 28})
+
+bobmods.lib.recipe.remove_ingredient("vehicle-solar-panel-1", {"silicon-wafer", 14})
+bobmods.lib.recipe.add_new_ingredient("solar-panel-equipment", {"silicon-wafer", 4})
+
+--}}
+
+--{{ Wind Turbine:
+data.raw["recipe"]["wind-turbine-2"].ingredients =     
+{
+	{"iron-plate", 36},
+	{"iron-gear-wheel", 8},
+	{"basic-circuit-board", 5},		
+}
+--}}
+
+--{{ Charcoal:
+data.raw["recipe"]["bi-charcoal"].result_count = 6
+data.raw["recipe"]["bi-charcoal-2"].result_count = 15
+
+if data.raw["technology"]["bi-coal-processing-2"] then
+	data.raw["recipe"]["bi-coke-coal"].enabled = false
+	data.raw["technology"]["bi-coal-processing-2"].effects = {
+		{
+			type = "unlock-recipe",
+			recipe = "bi-coal"
+		}
+	}
+end
+--}}
+
