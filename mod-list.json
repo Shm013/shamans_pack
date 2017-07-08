@@ -221,6 +221,10 @@
       "enabled": true
     },
     {
+      "name": "shmlamps",
+      "enabled": true
+    },
+    {
       "name": "shmnoinserter",
       "enabled": true
     },
@@ -238,10 +242,6 @@
     },
     {
       "name": "shmtweaks",
-      "enabled": true
-    },
-    {
-      "name": "TeksFox_nuclear",
       "enabled": true
     },
     {
