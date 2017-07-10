@@ -1,0 +1,18 @@
+{
+    "name": "shmadvtech",
+    "version": "0.0.1",
+    "factorio_version": "0.15",
+    "title": "Shaman's Advanced tecnology",
+    "author": "shm13 (Nikolay Shamanovich)",
+    "contact": "shm013@yandex.ru",
+    "homepage": "https://github.com/Shm13",
+    "description": "Part of BobExtended",
+    "dependencies": [
+        "base >= 0.15.0",
+        "boblibrary >= 0.15.8",
+        "bobwarfare >= 0.15.3",
+        "bobtech >= 0.15.3",
+        "bobplates >= 0.15.12",
+        "bobelectronics >= 0.15.3"
+    ]
+}
