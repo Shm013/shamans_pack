@@ -20,6 +20,7 @@ if not shmmods.tweaks then shmmods.tweaks = {} end
 
 require("config")
 require("prototypes.recipes-updates")
+require("prototypes.technology-updates")
 
 -- Recipes tweaks:
 bobmods.lib.recipe.add_new_ingredient("inserter", {"burner-inserter", 1} )
