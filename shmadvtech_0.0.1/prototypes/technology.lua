@@ -81,11 +81,7 @@ data:extend({
 		"advanced-research",
 		"tungsten-processing",
 		"titanium-processing",
-		"gold-processing",
-		"invar-processing",
-		"cobalt-processing",
 		"ceramics",
-		"logistics-3",
 		"battery-2",
 		"advanced-electronics-2"
     },
@@ -156,8 +152,9 @@ data:extend({
     prerequisites =
     {	
 		"sci-component-2",
-		"zinc-processing",
-		"lithium-processing"
+		"gold-processing",
+		"invar-processing",
+		"cobalt-processing",
     },
     effects =
     {

@@ -75,11 +75,10 @@ data:extend({
         ingredients =
         {
 		    {"sci-component-3" ,2},
+            {"advcomp-log", 1},
 		    {"cobalt-plate", 9},
-		    {"tungsten-plate", 8},
 		    {"gold-plate", 10},
 		    {"invar-alloy", 6},
-		    {"titanium-plate", 12},
         },
         result = "sci-log-component",
 	    result_count = 2
@@ -93,8 +92,9 @@ data:extend({
         ingredients =
         {
 		    {"sci-component-3" ,2},
-		    {"lithium", 5},
-		    {"zinc-plate", 12},
+            {"advcomp-prod", 1},
+		    {"titanium-plate", 12},
+		    {"tungsten-plate", 8},
         },
         result = "sci-prod-component",
 	    result_count = 2
@@ -112,7 +112,7 @@ data:extend({
             {"shotgun-shell", 2},
         },
         result = "sci-military-component",
-	    result_count = 1
+	    result_count = 2
     },
     { 
         type = "recipe",
@@ -122,9 +122,9 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"bronze-alloy", 1},
+		    {"bronze-alloy", 5},
 		    {"brass-alloy", 1},
-		    {"glass", 2}
+		    {"glass", 5}
         },
         result = "sci-ht-component",
 	    result_count = 1
@@ -138,8 +138,8 @@ data:extend({
         ingredients =
         {
 		    {"bronze-alloy", 1},
-		    {"brass-alloy", 1},
-		    {"glass", 2}
+		    {"brass-alloy", 5},
+		    {"glass", 5}
         },
         result = "advcomp3",
 	    result_count = 1
@@ -167,9 +167,9 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"bronze-alloy", 1},
-		    {"brass-alloy", 1},
-		    {"glass", 2}
+		    {"lithium", 3},
+		    {"zinc-plate", 7},
+		    {"glass", 10}
         },
         result = "advcomp-log",
 	    result_count = 1
@@ -182,9 +182,9 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"bronze-alloy", 1},
-		    {"brass-alloy", 1},
-		    {"glass", 2}
+		    {"lithium", 7},
+		    {"zinc-plate", 3},
+		    {"glass", 10}
         },
         result = "advcomp-prod",
 	    result_count = 1
@@ -197,8 +197,8 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"bronze-alloy", 1},
-		    {"brass-alloy", 1},
+		    {"lithium", 7},
+		    {"zinc-plate", 7},
 		    {"glass", 2}
         },
         result = "advcomp-alien",

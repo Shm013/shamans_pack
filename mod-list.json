@@ -6,7 +6,7 @@
     },
     {
       "name": "angelsaddons-locales",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "angelsaddons-pressuretanks",
@@ -82,7 +82,7 @@
     },
     {
       "name": "boblocale",
-      "enabled": false
+      "enabled": true
     },
     {
       "name": "boblogistics",
@@ -190,7 +190,7 @@
     },
     {
       "name": "marathomaton",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "More_Floors",
@@ -217,6 +217,10 @@
       "enabled": true
     },
     {
+      "name": "shmadvtech",
+      "enabled": true
+    },
+    {
       "name": "shmfaststart",
       "enabled": true
     },
@@ -231,6 +235,10 @@
     {
       "name": "shmpresets",
       "enabled": true
+    },
+    {
+      "name": "shmslag",
+      "enabled": false
     },
     {
       "name": "shmsort",
