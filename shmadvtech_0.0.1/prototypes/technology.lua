@@ -37,7 +37,6 @@ data:extend({
         prerequisites =
         {	
             "sci-component-1",
-            "zinc-processing",
             "lead-processing",
             "aluminium-processing",
             "nickel-processing",
@@ -83,7 +82,7 @@ data:extend({
 		"titanium-processing",
 		"ceramics",
 		"battery-2",
-		"advanced-electronics-2"
+        "zinc-processing",
     },
     effects =
     {
@@ -98,7 +97,7 @@ data:extend({
     },
     unit =
     {
-      count = 250,
+      count = 200,
       ingredients = 
       {
         {"science-pack-1", 1},
@@ -119,6 +118,7 @@ data:extend({
     prerequisites =
     {	
 		"sci-component-2",
+		"advanced-research",
 		"zinc-processing",
 		"lithium-processing"
     },
@@ -152,9 +152,12 @@ data:extend({
     prerequisites =
     {	
 		"sci-component-2",
-		"gold-processing",
-		"invar-processing",
-		"cobalt-processing",
+		"advanced-research",
+		"electrum-processing",
+        "concrete",
+        "zinc-processing",
+        "lithium-processing",
+        "robotics",
     },
     effects =
     {

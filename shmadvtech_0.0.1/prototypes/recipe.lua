@@ -77,8 +77,8 @@ data:extend({
 		    {"sci-component-3" ,2},
             {"advcomp-log", 1},
 		    {"cobalt-plate", 9},
-		    {"gold-plate", 10},
-		    {"invar-alloy", 6},
+		    {"electrum-alloy", 5},
+		    {"concrete", 12},
         },
         result = "sci-log-component",
 	    result_count = 2
@@ -95,6 +95,7 @@ data:extend({
             {"advcomp-prod", 1},
 		    {"titanium-plate", 12},
 		    {"tungsten-plate", 8},
+            {"silicon-nitride", 4},
         },
         result = "sci-prod-component",
 	    result_count = 2

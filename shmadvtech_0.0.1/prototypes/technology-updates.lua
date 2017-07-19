@@ -24,3 +24,5 @@ bobmods.lib.tech.add_recipe_unlock("military-2", "sci-military-component")
 
 bobmods.lib.tech.replace_science_pack("night-vision-equipment-3",
     "production-science-pack", "military-science-pack")
+
+bobmods.lib.tech.add_science_pack("concrete", "science-pack-3", 250)
