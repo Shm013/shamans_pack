@@ -1,0 +1,15 @@
+{
+    "name": "shmslag",
+    "version": "0.0.1",
+    "title": "Shaman's Slag mod",
+    "author": "shm13 (Nikolay Shamanovich)",
+    "contact": "shm013@yandex.ru",
+    "homepage": "https://github.com/Shm13",
+    "factorio_version": "0.15",
+    "description": "",
+    "dependencies": [
+        "base >= 0.15.0",
+        "bobplates >= 0.15.12",
+        "? angelsrefinin >= 0.7.16"
+    ]
+}
