@@ -1,0 +1,15 @@
+{
+    "name": "shmstructcomp",
+    "version": "0.0.1",
+    "factorio_version": "0.15",
+    "title": "Shaman's Structure components",
+    "author": "shm13 (Nikolay Shamanovich)",
+    "contact": "shm013@yandex.ru",
+    "homepage": "https://github.com/Shm13",
+    "description": "",
+    "dependencies": [
+        "base >= 0.15.0",
+        "boblibrary >= 0.15.8",
+        "bobplates >= 0.15.12"
+    ]
+}
