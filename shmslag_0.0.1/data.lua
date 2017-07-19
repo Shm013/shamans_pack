@@ -18,5 +18,6 @@
 if not shmmods then shmmods = {} end
 if not shmmods.tweaks then shmmods.tweaks = {} end
 
+require("prototypes.item")
 require("prototypes.recipe")
 require("prototypes.technology")

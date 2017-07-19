@@ -72,3 +72,78 @@ local function addRecipes()
 end
 
 addRecipes()
+
+
+local a = false
+data:extend(
+{
+    {
+        type = "recipe-category",
+        name = "electrolysis-bob-only"
+    },
+    {
+        type = "recipe",
+        name = "NickelCrystal",
+        energy_required= 4,
+        category = "chemical-furnace",
+        enabled = a,
+        ingredients =
+        {
+            { "nickel-ore", 4 },
+            { type="fluid", name="hydrogen", amount=8 }
+        },
+        result = "NickelCrystal",
+        result_count = 8
+    },
+    {
+        type = "recipe",
+        name = "QuartzCrystal",
+        energy_required= 4,
+        category = "electrolysis",
+        enabled = a,
+        ingredients =
+        {
+            { "quartz", 4 },
+            { type="fluid", name="hydrogen", amount=8 }
+        },
+        result = "QuartzCrystal",
+        result_count = 8
+    },
+    {
+        type = "recipe",
+        name = "lead-ore-crystalprocessing",
+        energy_required= 8,
+        category = "crystallizing",
+        subgroup = "crystal-processing-result",
+        enabled = a,
+        ingredients =
+        {
+            { "QuartzCrystal", 1 },
+            { "NickelCrystal", 7 },
+        },
+        result = "lead-ore",
+        result_count = 4
+    },
+    {
+        type = "recipe",
+        name = "tin-ore-crystalprocessing",
+        category = "crystallizing",
+        energy_required= 8,
+        subgroup = "crystal-processing-result",
+        enabled = a,
+        ingredients =
+        {
+            { "QuartzCrystal", 7 },
+            { "NickelCrystal", 1 },
+        },
+        result = "tin-ore",
+        result_count = 4
+    },
+})
+
+------------------------------------------------------------------------------------
+ 
+table.insert(data.raw["assembling-machine"]["electrolyser"].crafting_categories, "electrolysis-bob-only")
+table.insert(data.raw["assembling-machine"]["electrolyser-2"].crafting_categories, "electrolysis-bob-only")
+table.insert(data.raw["assembling-machine"]["electrolyser-3"].crafting_categories, "electrolysis-bob-only")
+table.insert(data.raw["assembling-machine"]["electrolyser-4"].crafting_categories, "electrolysis-bob-only")

@@ -200,5 +200,44 @@ data:extend({
             time = 20
         },
         upgrade = true
+    },
+    {
+        type = "technology",
+        name = "crystal-processing",
+        icon = "__shmslag__/graphics/technology/crystal.png",
+        icon_size = 128,
+        prerequisites = { 
+            "electrolysis-1",
+            "chemical-processing-1"
+        },
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "NickelCrystal"
+            },
+	        {
+                type = "unlock-recipe",
+                recipe = "QuartzCrystal"
+            },
+	        {
+                type = "unlock-recipe",
+                recipe = "lead-ore-crystalprocessing"
+            },
+	        {
+                type = "unlock-recipe",
+                recipe = "tin-ore-crystalprocessing"
+            },
+        },
+        unit =
+        {
+            count = 50,
+            ingredients = 
+            {
+                {"science-pack-1", 1},
+            },
+            time = 15
+        },
+        upgrade = true
     }
 })
