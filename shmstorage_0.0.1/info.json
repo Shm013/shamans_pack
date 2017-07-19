@@ -9,6 +9,6 @@
     "description": "Add new crates and other storage stuff. Based on VersepellesHardStorage mod.",
     "dependencies": [
         "base >= 0.15.0",
-        "bobwarfare >= 0.15.3"
+        "? bobwarfare >= 0.15.3"
     ]
 }

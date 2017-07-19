@@ -10,10 +10,13 @@
     "dependencies": [
         "base >= 0.15.0",
         "boblibrary >= 0.15.8",
-        "? boblpates >= 15.12",
+        "? bobplates >= 0.15.12",
+        "? boblogistics >= 0.15.6",
         "? bobelectronics >= 0.15.3",
         "? Bio_Industries >= 1.7.1",
-        "? marathomaton >= 0.2.39",
-        "? Flow Control >= 3.0.2"
+        "? Flow Control >= 3.0.2",
+        "? KS_Power >= 0.1.12",
+        "? Flow_Control >= 3.0.2",
+        "? AsphaltRoads >= 1.0.5"
     ]
 }

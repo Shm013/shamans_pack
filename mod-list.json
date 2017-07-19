@@ -50,7 +50,7 @@
     },
     {
       "name": "AutoDeconstruct",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "BetterIcons",
@@ -114,7 +114,7 @@
     },
     {
       "name": "bobsangelthon2",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "bobtech",
@@ -142,7 +142,7 @@
     },
     {
       "name": "Chainsaw",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "color-picker",
@@ -150,11 +150,11 @@
     },
     {
       "name": "DayNightExtender",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "Dectorio",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "EvoGUI",
@@ -170,11 +170,11 @@
     },
     {
       "name": "helmod",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "ItemCount",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "KS_Power",
@@ -186,7 +186,7 @@
     },
     {
       "name": "long-reach-research",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "marathomaton",
@@ -194,15 +194,15 @@
     },
     {
       "name": "More_Floors",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "nixie-tubes",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "PersonalTeleporter",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "player-color",
@@ -210,11 +210,11 @@
     },
     {
       "name": "ShinyAngelGFX",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "ShinyBobGFX",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "shmadvtech",
@@ -234,15 +234,15 @@
     },
     {
       "name": "shmpresets",
-      "enabled": true
-    },
-    {
-      "name": "shmslag",
       "enabled": false
     },
     {
-      "name": "shmsort",
+      "name": "shmslag",
       "enabled": true
+    },
+    {
+      "name": "shmsort",
+      "enabled": false
     },
     {
       "name": "shmstorage",
@@ -254,15 +254,15 @@
     },
     {
       "name": "Teleportation",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "textplates",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "TheFatController",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "train-stop-color",
@@ -270,7 +270,7 @@
     },
     {
       "name": "vtk-cannon-turret",
-      "enabled": true
+      "enabled": false
     },
     {
       "name": "wagon-color",

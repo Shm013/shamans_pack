@@ -95,3 +95,7 @@ data.raw["technology"]["Arci-asphalt"].unit.count = 200
 data.raw["technology"]["bob-power-armor-3"].icon = "__shmtweaks__/graphics/technology/power-armor-mk3.png"
 data.raw["technology"]["bob-power-armor-4"].icon = "__shmtweaks__/graphics/technology/power-armor-mk4.png"
 data.raw["technology"]["bob-power-armor-5"].icon = "__shmtweaks__/graphics/technology/power-armor-mk5.png"
+
+-- Inserter capacity bonus from 
+bobmods.lib.tech.add_new_science_pack("inserter-capacity-bonus-3", "science-pack-3", 1)
+bobmods.lib.tech.add_new_science_pack("inserter-capacity-bonus-4", "high-tech-science-pack", 1)
