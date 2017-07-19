@@ -198,9 +198,9 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"lithium", 7},
-		    {"zinc-plate", 7},
-		    {"glass", 2}
+		    {"aluminium-plate", 7},
+		    {"gunmetal-alloy", 7},
+		    {"glass", 5}
         },
         result = "advcomp-alien",
 	    result_count = 1
