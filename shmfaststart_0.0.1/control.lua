@@ -19,7 +19,11 @@ require "config"
 
 script.on_event(defines.events.on_player_created, function(event)
     local player = game.players[event.player_index]
+
+    -- Remove all from inventory
+    player.clear_items_inside()
 	
+    -- Set properly inventory
 	for _,item in pairs(shmmods.tweaks.startitems) do
 		if game.item_prototypes[item[1]] ~= nul then
 			player.insert{name=item[1], count=item[2]}

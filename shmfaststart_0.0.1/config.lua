@@ -18,10 +18,10 @@ if not shmmods then shmmods = {} end
 if not shmmods.tweaks then shmmods.tweaks = {} end
 
 shmmods.tweaks.startitems ={
-    {"gun-turret", 5},
+    {"gun-turret", 3},
 	{"iron-axe", 1},
     {"wood", 20},
-	{"iron-plate", 91},
+	{"iron-plate", 50},
 	{"assembling-machine-1", 1},
-    {"burner-mining-drill", 3}
+    {"burner-mining-drill", 5}
 }
