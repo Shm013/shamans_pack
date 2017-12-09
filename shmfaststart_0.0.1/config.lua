@@ -21,7 +21,7 @@ shmmods.tweaks.startitems ={
     {"gun-turret", 3},
 	{"iron-axe", 1},
     {"wood", 20},
-	{"iron-plate", 50},
+	{"iron-plate", 100},
 	{"assembling-machine-1", 1},
     {"burner-mining-drill", 5}
 }

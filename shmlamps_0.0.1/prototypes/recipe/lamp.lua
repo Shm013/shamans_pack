@@ -23,7 +23,7 @@ data:extend({
 		{
 			{ "small-lamp", 4 },
 			{ "iron-plate", 10 },
-			{ "basic-circuit-board", 3},	
+	--		{ "basic-circuit-board", 3},	
 		},
 		result = "medium-lamp",
 		result_count = 1,

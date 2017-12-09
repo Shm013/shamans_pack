@@ -48,7 +48,9 @@ local infiniteore_settings = {
     "angels-enableinfinitedarkmatter"
 }
 
-for _, name in ipairs(infiniteore_settings) do
-  local s = data.raw['bool-setting'][name] or {}
-  s.default_value = false
+if data.raw['bool-setting'] then
+    for _, name in ipairs(infiniteore_settings) do
+        local s = data.raw['bool-setting'][name] or {}
+        s.default_value = false
+    end
 end

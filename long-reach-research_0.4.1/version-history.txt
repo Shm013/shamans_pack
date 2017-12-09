@@ -1,0 +1,77 @@
+Version 0.4.1
+	- New:
+		- Added Chinese mod name and description.
+		- Added runtime mod settings for changing the initial reach, build, mine, pickup and loot distance bonuses. They are all 0 by default.
+
+Version 0.4.0
+	- New:
+		- Grouped the Long Mine Research, Long Pickup Research and Long Loot Research mods into this one.
+			- Please uninstall the above mods if you have installed them. Progress and settings will be preserved.
+			- An error will be shown if you start the game with them.
+		- Added mod settings for disabling the long mine, long pickup and long loot technologies. They are disabled by default.
+			- If you were using Long Pickup Research and/or Long Loot Research before, please go to mod settings and enable the long pickup technology and/or the long loot technology.
+	- Changes:
+		- Changed the mod license from CC BY-NC 4.0 to GNU LGPLv3.
+		- Factorio version is now required to be equal or higher than 0.15.12 (from 0.15).
+		- Reduced research time as follow:
+			- T3 long reach, long build and long mine: reduced from 60s to 30s
+			- T4 long reach, long build and long mine: reduced from 120s to 45s
+			- T5 long reach, long build and long mine: reduced from 180s to 45s
+			- T6 long reach and long build: reduced from 240s to 60s
+			- T3 long pickup and long loot (non-expensive): reduced from 120s to 60s
+			- T4 long pickup and long loot (non-expensive): reduced from 240s to 60s
+			- T5 long pickup and long loot (non-expensive): reduced from 360s to 60s
+			- T3 long loot (expensive): reduced from 180s to 90s
+			- T4 long loot (expensive): reduced from 360s to 90s
+			- T5 long loot (expensive): reduced from 540s to 90s
+	- Fixes:
+		- Fixed loading error if long pickup and T5 long loot are enabled but not T5 long pickup.
+
+Version 0.3.1
+	- New:
+		- Added command /long-reach-research-reset to reset the technologies and also the reach distance in all forces. Useful before uninstalling the mods.
+			- Type /help long-reach-research-reset for further details.
+			- Can only be used by admin.
+			- In order to reset long mine, long pickup or long loot, their mod version should be 0.2.1+.
+
+Version 0.3.0
+	- Changes:
+		- Updated for Factorio 0.15.
+		- Reworked on the technologies levels to divide the Tier 3 and Tier 4 technologies into multiple levels.
+			- You can get back the original 4-level system by turning off Options > Mods > Startup > long-reach-research > Use 4-level technologies (Legacy)
+		- If the new levels are enabled, it is also possible to get the new Tier 5 and Tier 6 (Infinite) technologies.
+			- Both T5 and T6 are enabled for long reach by default, but only T5 is enabled for long build.
+		- Added information about the bonuses of the technologies.
+		
+Version 0.2.1
+	- Fixes:
+		- Technologies of the same category are now grouped properly such that only one level will be shown at a time.
+
+Version 0.2.0
+	- Changes:
+		- Separated the mod into different ones according to the different functionalities:
+			- Long reach research (this mod): operation distance, item drop distance and build distance.
+			- Long mine research (new): mine distance.
+			- Long item pickup research (new): item pickup distance.
+			- Long loot pickup research (new): automatic loot pickup distance. Optionally depends on Long item pickup research.
+			(The new mods depend on this one.)
+		- Removed the config.lua due to the change above.
+		- Long reach 3 now requires Automation as a prerequisite.
+		- Upgrading this mod from pre-v0.2 to v0.2+ will reset the build distance, but update the item drop distance according to the researched level of the long reach technology.
+	- Minor Changes:
+		- Added the base mod as a depended mod.
+
+Version 0.1.2
+	- New:
+		- Added config.lua for optionally disabling the effect of long reach research to the character mining distance.
+		- Also added options for applying the effect to item drop distance (on by default), item pickup distance (new, off by default) and loot pikcup distance (new, off by default).
+	- Improvements:
+		- Compressed the images to reduce the overall file size.
+	- Fixes:
+		- Fixed the bonus distances for mining. They are now based on the default mining distance (3, instead of 6, i.e. the bonuses are now half of the original ones).
+
+Version 0.1.1
+	- Fixed duplicated keys in Chinese locale.
+
+Version 0.1.0
+	- The first version.

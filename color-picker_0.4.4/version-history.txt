@@ -1,0 +1,75 @@
+Version 0.4.4:
+	- You will be notify to uninstall the old Color Picker sub-mods if any of them is detected..
+	- The mod settings under "Map" have been switched to "Per player".
+	- Now changing the colors of train stops, locomotives, cargo wagons and fluid wagons using the color picker or via copy-and-pasting requires the permission to set entity color.
+	
+Version 0.4.3:
+	- The player color button is now shown correctly when loading a save that had Color Picker older than v0.4.0.
+		- If the button is not shown and you have saved the game with Color Picker v0.4.0+, please turn off Mod settings > Map > Enable player color picker, apply, and then turn it on again.
+
+Version 0.4.2:
+	- Removed the blue default color preset. Added the colors of coal, stone, iron, copper and uranium as default presets.
+	- Added default names for the default color presets.
+	- Updated the tooltip format of the color preset buttons.
+	- Updated the style of the hex color textfield for invalid value, to match the style from vanilla.
+	- Improved the presentation of transparent color:
+		- For the result color block, the top-left part of the block shows transparency while the bottom-right part remains opaque.
+		- For the color presets, when a preset button is hovered, its color becomes opaque.
+	- Fixed the bug that the alpha channel is hidden after the color picker for train stop, locomotive, cargo wagon or fluid wagon is re-opened by clicking the button on the left side.
+	
+Version 0.4.1:
+	- Added color mask for fluid wagon.
+		- Added public function for modders to add the same set of color masks to other fluid wagon entities.
+	- Added color picker support for fluid wagon.
+	- Added mod settings to disable the above features.
+	- Reworked the "Make color pastable between cargo wagon and others" to "Make color pastable between wagon and others".
+		- It now also applies on fluid wagons.
+	- Fixed error when loading a save that contains older version of Color Picker.
+
+Version 0.4.0:
+	- Changed the mod license from CC BY-NC 4.0 to GNU LGPLv3.
+	- Added Chinese mod name and description for Factorio 0.15.24+.
+	- Combined the following mods, you can delete them if you have installed them before:
+		- Color Picker - Player
+		- Color Picker - Train Stop
+		- Color Picker - Locomotive
+		- Color Picker - Wagon
+	- The color picker for the above entities will be opened by default instead of collapsed when the entity is selected.
+		- It will also keep being opened when you select another entity that supports color picker.
+	- Added runtime mod settings to disable the above color pickers.
+	- Added the ability to copy-and-paste the color from a locomotive or train stop to cargo wagons or the other way around. It can be disabled with the new startup mod setting.
+	- Added support for the alpha channel.
+		- Added "support_alpha" optional parameter for the "add_instance" method. It is false by default.
+		- The alpha channel is supported for player color, train stop color, locomotive color and cargo wagon color.
+	- The "result_caption" of the "add_instance" method is deprecated.
+	- Added the ability to store color presets. By default, the default locomotive color, player color and a blue color are defined as presets.
+		- You can add your own presets by clicking the last button in the presets table. 24 presets can be stored for each player at most.
+		- You can name the presets by alt-clicking the preset buttons.
+		- You can quickly remove presets by shift-clicking the preset buttons.
+		- Due to technical limitation, presets cannot be saved across different games. This may be solved in the future.
+	- Known issue: because the UI has been reworked, existing color picker UIs from the old saves may not work properly. Please close and reopen them.
+
+Version 0.3.0
+	- Updated for Factorio 0.15.
+	- The events raised from this mod now also contains "tick" (Tick the event was generated) and "name" (ID of the event).
+
+Version 0.2.1
+	- Added "hex_color" parameter for the "on_ok_button_clicked" event.
+	- Fixed bad UI alignment in different window sizes.
+
+Version 0.2.0
+	- Added French locale (Thanks binbinhfr)
+	- Added sounds for the buttons and color palettes when they are left-clicked.
+	- Better visualization. The result label is center-aligned if the OK button is not presented.
+	- Added hexadecimal representation of the color.
+	- Added "hex_color" optional parameter for the "add_instance" method.
+	- Added "hex_color" parameter for the "on_color_changed" event.
+	- Added remote.call("color-picker", "set_hex_color", LuaGuiElement, string)
+	- Added remote.call("color-picker", "get_hex_color", LuaGuiElement)
+
+Version 0.1.1
+	- Updated for Factorio 0.14.
+	- Added remote.call("color-picker", "get_color", LuaGuiElement)
+
+Version 0.1.0
+	- The first version.
