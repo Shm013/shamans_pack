@@ -19,70 +19,127 @@ if not shmmods then shmmods = {} end
 if not shmmods.tweaks then shmmods.tweaks = {} end
 
 
-data.raw["recipe"]["science-pack-1"].ingredients = {
-    {"iron-gear-wheel",5},
-    {"copper-plate", 15},
-    {"sci-component-1", 3},
+data.raw["recipe"]["science-pack-1"].ingredients = nil
+data.raw["recipe"]["science-pack-1"].normal =
+{
+    ingredients =
+    {
+        {"iron-gear-wheel",1},
+        {"copper-plate", 1},
+        {"sci-component-1", 1},
+    },
+    result_count = 1,
+    result = "science-pack-1"
 }
 
-data.raw["recipe"]["science-pack-2"].ingredients = {
-    {"inserter", 2},
-    {"transport-belt", 7},
-    {"sci-component-2", 3},
-    {"bronze-alloy", 7},
+data.raw["recipe"]["science-pack-1"].expensive =
+{
+    ingredients =
+    {
+        {"iron-gear-wheel",5},
+        {"copper-plate", 15},
+        {"sci-component-1", 3},
+    },
+    result_count = 1,
+    result = "science-pack-1"
 }
 
-data.raw["recipe"]["science-pack-3"].ingredients = {
-    {"battery", 5},
-    {"advanced-circuit", 3},
-    {"filter-inserter", 2},
-    {"steel-plate", 7},
-    {"sci-component-3", 3},
+data.raw["recipe"]["science-pack-2"].ingredients = nil
+data.raw["recipe"]["science-pack-2"].normal = 
+{
+    enabled = false,
+    ingredients = {
+        {"inserter", 1},
+        {"transport-belt", 1},
+        {"sci-component-2", 2},
+    },
+    result_count = 1,
+    result = "science-pack-2"
+}
+data.raw["recipe"]["science-pack-2"].expensive = 
+{
+    enabled = false,
+    ingredients = {
+        {"inserter", 2},
+        {"transport-belt", 7},
+        {"sci-component-2", 3},
+    },
+    result_count = 1,
+    result = "science-pack-2"
 }
 
-data.raw["recipe"]["production-science-pack"].ingredients = {
-    {"processing-unit", 10},
-    {"steel-bearing", 10},
-    {"lithium-ion-battery", 10},
-    {"silicon-nitride", 7},
-    {"sci-prod-component", 2},
-}
+if data.raw.item["bronze-alloy"] then
+    table.insert(data.raw["recipe"]["science-pack-2"].normal.ingredients, {"bronze-alloy", 2})
+    table.insert(data.raw["recipe"]["science-pack-2"].expensive.ingredients, {"bronze-alloy", 7})
+end
 
---data.raw["recipe"]["production-science-pack"].ingredients = {
---    {"processing-unit", 10},
-----    {"express-transport-belt", 10},
---    {"lithium-ion-battery", 10},
---    {"silicon-nitride", 7},
---    {"sci-component-4", 3},
---    {"advcomp-prod", 3},
---}
---data.raw["recipe"]["science-pack-4"].energy_required = 45
---data.raw["recipe"]["alien-science-pack"].ingredients = {
---		{"alien-artifact", 3},
---		{"sci-component-5", 3},
+if data.raw.item["lead-plate"] and data.raw.item["tin-plate"] then
+    table.insert(data.raw["recipe"]["sci-component-2"].normal.ingredients, {"lead-plate", 3})
+    table.insert(data.raw["recipe"]["sci-component-2"].normal.ingredients, {"tin-plate", 2})
+    table.insert(data.raw["recipe"]["sci-component-2"].expensive.ingredients, {"lead-plate", 22})
+    table.insert(data.raw["recipe"]["sci-component-2"].expensive.ingredients, {"tin-plate", 14})
+end
+
+
+--
+--data.raw["recipe"]["science-pack-3"].ingredients = {
+--    {"battery", 5},
+--    {"advanced-circuit", 3},
+--    {"filter-inserter", 2},
+--    {"steel-plate", 7},
+--    {"sci-component-3", 3},
 --}
 --
-data.raw["recipe"]["military-science-pack"].ingredients = {
-    {"light-armor", 1},
-    {"pistol", 1},
-    {"grenade", 1},
-    {"sci-military-component", 2}
+--data.raw["recipe"]["production-science-pack"].ingredients = {
+--    {"processing-unit", 10},
+--    {"steel-bearing", 10},
+--    {"lithium-ion-battery", 10},
+--    {"silicon-nitride", 7},
+--    {"sci-prod-component", 2},
+--}
+
+-- Military science pack --
+data.raw["recipe"]["military-science-pack"].ingredients = nil
+
+data.raw["recipe"]["military-science-pack"].normal = 
+{
+    enabled = false,
+    ingredients =
+    {
+        {"grenade", 1},
+        {"sci-military-component", 1}
+    },
+    result_count = 1,
+    result = "military-science-pack",
 }
 
-bobmods.lib.recipe.add_new_ingredient("logistic-science-pack", {"sci-log-component", 2})
-bobmods.lib.recipe.add_new_ingredient("high-tech-science-pack",{"advcomp-alien", 2})
+data.raw["recipe"]["military-science-pack"].expensive=
+{
+    enabled = false,
+    ingredients =
+    {
+        {"pistol", 2},
+        {"grenade", 2},
+        {"sci-military-component", 2}
+    },
+    result_count = 2,
+    result = "military-science-pack",
+}
 
-data.raw["recipe"]["alien-science-pack"].result_count = 1
-data.raw["recipe"]["alien-science-pack-blue"].result_count = 1
-data.raw["recipe"]["alien-science-pack-orange"].result_count = 1
-data.raw["recipe"]["alien-science-pack-purple"].result_count = 1
-data.raw["recipe"]["alien-science-pack-yellow"].result_count = 1
-data.raw["recipe"]["alien-science-pack-green"].result_count = 1
-data.raw["recipe"]["alien-science-pack-red"].result_count = 1
+--bobmods.lib.recipe.add_new_ingredient("logistic-science-pack", {"sci-log-component", 2})
+--bobmods.lib.recipe.add_new_ingredient("high-tech-science-pack",{"advcomp-alien", 2})
 
-data.raw["recipe"]["alien-science-pack-blue"].ingredients = {{"alien-artifact-blue", 1},{"advcomp-alien",3}}
-data.raw["recipe"]["alien-science-pack-orange"].ingredients = {{"alien-artifact-orange", 1},{"advcomp-alien",3}}
-data.raw["recipe"]["alien-science-pack-purple"].ingredients = {{"alien-artifact-purple", 1},{"advcomp-alien",3}}
-data.raw["recipe"]["alien-science-pack-yellow"].ingredients = {{"alien-artifact-yellow", 1},{"advcomp-alien",3}}
-data.raw["recipe"]["alien-science-pack-green"].ingredients = {{"alien-artifact-green", 1},{"advcomp-alien",3}}
-data.raw["recipe"]["alien-science-pack-red"].ingredients = {{"alien-artifact-red", 1},{"advcomp-alien",3}}
+--data.raw["recipe"]["alien-science-pack"].result_count = 1
+--data.raw["recipe"]["alien-science-pack-blue"].result_count = 1
+--data.raw["recipe"]["alien-science-pack-orange"].result_count = 1
+--data.raw["recipe"]["alien-science-pack-purple"].result_count = 1
+--data.raw["recipe"]["alien-science-pack-yellow"].result_count = 1
+--data.raw["recipe"]["alien-science-pack-green"].result_count = 1
+--data.raw["recipe"]["alien-science-pack-red"].result_count = 1
+
+--data.raw["recipe"]["alien-science-pack-blue"].ingredients = {{"alien-artifact-blue", 1},{"advcomp-alien",3}}
+--data.raw["recipe"]["alien-science-pack-orange"].ingredients = {{"alien-artifact-orange", 1},{"advcomp-alien",3}}
+--data.raw["recipe"]["alien-science-pack-purple"].ingredients = {{"alien-artifact-purple", 1},{"advcomp-alien",3}}
+--data.raw["recipe"]["alien-science-pack-yellow"].ingredients = {{"alien-artifact-yellow", 1},{"advcomp-alien",3}}
+--data.raw["recipe"]["alien-science-pack-green"].ingredients = {{"alien-artifact-green", 1},{"advcomp-alien",3}}
+--data.raw["recipe"]["alien-science-pack-red"].ingredients = {{"alien-artifact-red", 1},{"advcomp-alien",3}}

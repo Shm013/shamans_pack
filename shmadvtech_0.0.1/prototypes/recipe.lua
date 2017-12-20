@@ -42,8 +42,8 @@ data:extend({
         ingredients =
         {
 		    {"sci-component-1" ,2},
-		    {"lead-plate", 22},
-		    {"tin-plate", 14},
+--		    {"lead-plate", 22},
+--		    {"tin-plate", 14},
 		    {"electronic-circuit", 2}
         },
         result = "sci-component-2",
@@ -58,9 +58,9 @@ data:extend({
         ingredients =
         {
 		    {"sci-component-2" ,2},
-		    {"aluminium-plate", 5},
-		    {"silver-plate", 14},
-		    {"nickel-plate", 7},
+--		    {"aluminium-plate", 5},
+--		    {"silver-plate", 14},
+--		    {"nickel-plate", 7},
 		    {"advcomp3", 2},
         },
         result = "sci-component-3",
@@ -76,8 +76,8 @@ data:extend({
         {
 		    {"sci-component-3" ,2},
             {"advcomp-log", 1},
-		    {"cobalt-plate", 9},
-		    {"electrum-alloy", 5},
+--		    {"cobalt-plate", 9},
+--		    {"electrum-alloy", 5},
 		    {"concrete", 12},
         },
         result = "sci-log-component",
@@ -93,9 +93,9 @@ data:extend({
         {
 		    {"sci-component-3" ,2},
             {"advcomp-prod", 1},
-		    {"titanium-plate", 12},
-		    {"tungsten-plate", 8},
-            {"silicon-nitride", 4},
+--		    {"titanium-plate", 12},
+--		    {"tungsten-plate", 8},
+--          {"silicon-nitride", 4},
         },
         result = "sci-prod-component",
 	    result_count = 2
@@ -123,9 +123,9 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"bronze-alloy", 5},
-		    {"brass-alloy", 1},
-		    {"glass", 5}
+--		    {"bronze-alloy", 5},
+--		    {"brass-alloy", 1},
+--		    {"glass", 5}
         },
         result = "sci-ht-component",
 	    result_count = 1
@@ -138,9 +138,9 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"bronze-alloy", 1},
-		    {"brass-alloy", 5},
-		    {"glass", 5}
+--		    {"bronze-alloy", 1},
+--		    {"brass-alloy", 5},
+--		    {"glass", 5}
         },
         result = "advcomp3",
 	    result_count = 1
@@ -153,9 +153,9 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"bronze-alloy", 1},
-		    {"brass-alloy", 1},
-		    {"glass", 2}
+--		    {"bronze-alloy", 1},
+--		    {"brass-alloy", 1},
+--		    {"glass", 2}
         },
         result = "advcomp-military",
 	    result_count = 1
@@ -168,9 +168,9 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"lithium", 3},
-		    {"zinc-plate", 7},
-		    {"glass", 10}
+--		    {"lithium", 3},
+--		    {"zinc-plate", 7},
+--		    {"glass", 10}
         },
         result = "advcomp-log",
 	    result_count = 1
@@ -183,9 +183,9 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"lithium", 7},
-		    {"zinc-plate", 3},
-		    {"glass", 10}
+--		    {"lithium", 7},
+--		    {"zinc-plate", 3},
+--		    {"glass", 10}
         },
         result = "advcomp-prod",
 	    result_count = 1
@@ -198,11 +198,26 @@ data:extend({
 	    energy_required = 15,
         ingredients =
         {
-		    {"aluminium-plate", 7},
-		    {"gunmetal-alloy", 7},
-		    {"glass", 5}
+--		    {"aluminium-plate", 7},
+--		    {"gunmetal-alloy", 7},
+--		    {"glass", 5}
         },
         result = "advcomp-alien",
+	    result_count = 1
+    },
+    { 
+        type = "recipe",
+        name = "sci-alien-component",
+        category = "crafting",
+	    enabled = false,
+	    energy_required = 15,
+        ingredients =
+        {
+--		    {"aluminium-plate", 7},
+--		    {"gunmetal-alloy", 7},
+--		    {"glass", 5}
+        },
+        result = "sci-alien-component",
 	    result_count = 1
     },
 })

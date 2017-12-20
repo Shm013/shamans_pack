@@ -1,12 +1,13 @@
+-- Basic components --
 data:extend({
     {
         type = "technology",
-        name = "sci-component-1",
+        name = "sci-basic-components",
         icon = "__shmadvtech__/graphics/comp2.png",
         prerequisites =
         {
             "electronics",
-            "alloy-processing-1"
+--            "alloy-processing-1"
         },
         effects =
         {
@@ -17,7 +18,7 @@ data:extend({
         },
         unit =
         {
-            count = 100,
+            count = 50,
             ingredients = 
             {
                 {"science-pack-1", 1},
@@ -27,21 +28,21 @@ data:extend({
         upgrade = true,
         order = "a-a-a1"
     },
-})
 
-data:extend({
+-- Midle components --
     {
         type = "technology",
-        name = "sci-component-2",
+        name = "sci-midle-components",
         icon = "__shmadvtech__/graphics/comp3.png",
         prerequisites =
         {	
-            "sci-component-1",
-            "lead-processing",
-            "aluminium-processing",
-            "nickel-processing",
-            "advanced-electronics",
-            "battery"
+            "sci-basic-components",
+--            "lead-processing",
+--            "aluminium-processing",
+--            "nickel-processing",
+--            "advanced-electronics",
+            "plastics",
+            "battery",
         },
         effects =
         {
@@ -67,22 +68,21 @@ data:extend({
         upgrade = true,
         order = "a-a-a1"
     },
-})
 
-data:extend({
+-- Production components --
     {
     type = "technology",
-    name = "sci-prod-component",
+    name = "sci-prod-components",
     icon = "__shmadvtech__/graphics/comp-prod.png",
     prerequisites =
     {	
-		"sci-component-2",
-		"advanced-research",
-		"tungsten-processing",
-		"titanium-processing",
-		"ceramics",
-		"battery-2",
-        "zinc-processing",
+        "sci-midle-components",
+--		"advanced-research",
+--		"tungsten-processing",
+--		"titanium-processing",
+--		"ceramics",
+--		"battery-2",
+--        "zinc-processing",
     },
     effects =
     {
@@ -97,91 +97,162 @@ data:extend({
     },
     unit =
     {
-      count = 200,
-      ingredients = 
-      {
-        {"science-pack-1", 1},
-		{"science-pack-2", 1},
-		{"science-pack-3", 1},
-      },
-      time = 30
+        count = 200,
+        ingredients = 
+        {
+            {"science-pack-1", 1},
+            {"science-pack-2", 1},
+            {"science-pack-3", 1},
+        },
+        time = 30
     },
     upgrade = true,
     order = "a-a-a1"
   },
+-- Military componets --
+
+    {
+        type = "technology",
+        name = "milotary-components",
+        icon = "__shmadvtech__/graphics/comp-military.png",
+        prerequisites =
+        {	
+            "sci-basic-components",
+            "military-2",
+        },
+        unit =
+        {
+            count = 50,
+            ingredients = 
+            {
+                {"science-pack-1", 1},
+                {"science-pack-2", 1},
+            },
+            time = 30
+        },
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "sci-military-component",
+            },
+        },
+    },
+
+-- HT components --
+    {
+        type = "technology",
+        name = "ht-components",
+        icon = "__shmadvtech__/graphics/comp-ht.png",
+        prerequisites =
+        {	
+            "sci-prod-components",
+        },
+        unit =
+        {
+            count = 200,
+            ingredients = 
+            {
+                {"science-pack-1", 1},
+                {"science-pack-2", 1},
+                {"science-pack-3", 1},
+            },
+            time = 30
+        },
+        effects =
+        {
+            {
+                type = "unlock-recipe",
+                recipe = "sci-ht-component",
+            },
+        },
+    },
+
 })
-data:extend({
-    {
-    type = "technology",
-    name = "sci-alien-component",
-    icon = "__shmadvtech__/graphics/advcomp-alien.png",
-    prerequisites =
-    {	
-		"sci-component-2",
-		"advanced-research",
-		"zinc-processing",
-		"lithium-processing"
-    },
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "advcomp-alien",
-      },
-    },
-    unit =
-    {
-      count = 200,
-      ingredients = 
-      {
-        {"science-pack-1", 1},
-		{"science-pack-2", 1},
-		{"science-pack-3", 1},
-      },
-      time = 30
-    },
-    upgrade = false,
-    order = "a-a-a2"
-  },
-})
-data:extend({
-    {
-    type = "technology",
-    name = "sci-log-component",
-    icon = "__shmadvtech__/graphics/comp-log.png",
-    prerequisites =
-    {	
-		"sci-component-2",
-		"advanced-research",
-		"electrum-processing",
-        "concrete",
-        "zinc-processing",
-        "lithium-processing",
-        "robotics",
-    },
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "sci-log-component",
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "advcomp-log",
-      },
-    },
-    unit =
-    {
-      count = 200,
-      ingredients = 
-      {
-        {"science-pack-1", 1},
-		{"science-pack-2", 1},
-		{"science-pack-3", 1},
-      },
-      time = 30
-    },
-    upgrade = false,
-    order = "a-a-a2"
-  },
-})
+
+-- logistic components, bobtech require --
+if data.raw["tool"]["logistic-science-pack"] then
+    data:extend({
+        {
+            type = "technology",
+            name = "sci-log-components",
+            icon = "__shmadvtech__/graphics/comp-log.png",
+            prerequisites =
+            {	
+                "sci-midle-components",
+        --		"advanced-research",
+        --		"electrum-processing",
+        --        "concrete",
+        --        "zinc-processing",
+        --        "lithium-processing",
+        --        "robotics",
+            },
+            effects =
+            {
+                {
+                    type = "unlock-recipe",
+                    recipe = "sci-log-component",
+                },
+                {
+                    type = "unlock-recipe",
+                    recipe = "advcomp-log",
+                },
+            },
+            unit =
+            {
+                count = 200,
+                ingredients = 
+                {
+                    {"science-pack-1", 1},
+                    {"science-pack-2", 1},
+                    {"science-pack-3", 1},
+                },
+                time = 30
+            },
+        upgrade = false,
+        order = "a-a-a2"
+        },
+    })
+end
+
+-- Alien components. bobtech, bobwarfare, bobenemies require --
+if data.raw["tool"]["alien-science-pack"] then
+    data:extend({
+        {
+            type = "technology",
+            name = "sci-alien-components",
+            icon = "__shmadvtech__/graphics/comp-alien.png",
+            prerequisites =
+            {	
+                "sci-midle-components",
+        --		"advanced-research",
+        --		"zinc-processing",
+        --		"lithium-processing"
+            },
+            effects =
+            {
+                {
+                    type = "unlock-recipe",
+                    recipe = "sci-alien-component",
+                },
+                {
+                    type = "unlock-recipe",
+                    recipe = "advcomp-alien",
+                },
+            },
+            unit =
+            {
+                count = 200,
+                ingredients = 
+                {
+                    {"science-pack-1", 1},
+                    {"science-pack-2", 1},
+                    {"science-pack-3", 1},
+                },
+                time = 30
+            },
+            upgrade = false,
+            order = "a-a-a2"
+        },
+    })
+end

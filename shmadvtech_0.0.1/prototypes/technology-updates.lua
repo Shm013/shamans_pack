@@ -18,11 +18,21 @@
 if not shmmods then shmmods = {} end
 if not shmmods.tweaks then shmmods.tweaks = {} end
 
-bobmods.lib.tech.add_recipe_unlock("military-2", "sci-military-component")
+table.insert (data.raw.technology["electronics"].effects, { type = "unlock-recipe", recipe = "science-pack-2" } )
+
+-- Bob mods: --
+if data.raw.item["alien-science-pack"] then
+    bobmods.lib.tech.add_prerequisite("ht-components", "sci-alien-components")
+end
+
+if data.raw.item["logistic-science-pack"] then
+    bobmods.lib.tech.add_prerequisite("ht-components", "sci-log-components")
+end
+
 --bobmods.lib.tech.add_recipe_unlock("logistics-3", "sci-log-component")
 --bobmods.lib.tech.add_recipe_unlock("logistics-3", "sci-log-component")
 
-bobmods.lib.tech.replace_science_pack("night-vision-equipment-3",
-    "production-science-pack", "military-science-pack")
+--bobmods.lib.tech.replace_science_pack("night-vision-equipment-3",
+--    "production-science-pack", "military-science-pack")
 
-bobmods.lib.tech.add_science_pack("concrete", "science-pack-3", 250)
+--bobmods.lib.tech.add_science_pack("concrete", "science-pack-3", 250)

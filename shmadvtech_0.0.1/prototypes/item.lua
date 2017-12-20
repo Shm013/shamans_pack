@@ -75,6 +75,15 @@ data:extend({
     },
 	{
         type = "item",
+        name = "sci-alien-component",
+        icon = "__shmadvtech__/graphics/comp-alien.png",
+        flags = {"goes-to-main-inventory"},
+        subgroup = "sci-com",
+        order = "f",
+        stack_size = 100
+    },
+	{
+        type = "item",
         name = "sci-ht-component",
         icon = "__shmadvtech__/graphics/comp-ht.png",
         flags = {"goes-to-main-inventory"},

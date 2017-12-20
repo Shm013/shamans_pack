@@ -20,4 +20,4 @@ if not shmmods.tweaks then shmmods.tweaks = {} end
 
 require("prototypes.recipe-updates")
 require("prototypes.technology-updates")
-require("prototypes.item-updates")
+--require("prototypes.item-updates")

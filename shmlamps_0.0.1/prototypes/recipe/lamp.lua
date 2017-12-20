@@ -12,8 +12,6 @@ data:extend({
 		},
 		result = "small-lamp-mk2",
 		result_count = 1,
-		--subgroup = "UT-repositories",
-		--order = "a[items]-c[steel-chest]-c",
 	},
 	{
 		type = "recipe",
@@ -23,12 +21,9 @@ data:extend({
 		{
 			{ "small-lamp", 4 },
 			{ "iron-plate", 10 },
-	--		{ "basic-circuit-board", 3},	
 		},
 		result = "medium-lamp",
 		result_count = 1,
-		--subgroup = "UT-repositories",
-		--order = "a[items]-c[steel-chest]-c",
 	},
 	{
 		type = "recipe",
@@ -42,7 +37,5 @@ data:extend({
 		},
 		result = "medium-lamp-mk2",
 		result_count = 1,
-		--subgroup = "UT-repositories",
-		--order = "a[items]-c[steel-chest]-c",
 	},
 })

@@ -9,10 +9,10 @@
     "description": "Part of BobExtended",
     "dependencies": [
         "base >= 0.15.0",
-        "boblibrary >= 0.15.8",
-        "bobwarfare >= 0.15.3",
-        "bobtech >= 0.15.3",
-        "bobplates >= 0.15.12",
-        "bobelectronics >= 0.15.3"
+        "? bobtech >= 0.15.3",
+        "? boblibrary >= 0.15.8",
+        "? bobwarfare >= 0.15.3",
+        "? bobplates >= 0.15.12",
+        "? bobelectronics >= 0.15.3"
     ]
 }
