@@ -1,0 +1,65 @@
+
+
+Tweaked Alien floors recipe:
+{
+	1 blue circuit
+	10 circuit floors
+
+	result = 20 tiles
+}
+
+wood tiles now drop wood
+
+Gravel tiles now drop stone
+
+fixed lava/asphalt not showing
+
+Added Tar pits - 15% movespeed (slightly buggy)
+
+Added Fast bi directional arrows
+
+Added Express bi directional arrows
+
+Added a tab for all tiles.
+
+Added dark dirt
+
+Added regular dirt
+
+Added Dark Sand
+
+Added Checkboard tile
+
+Added Experimenting tile
+
+Added 12 colored concretes:
+	Black 
+	Blue 
+	Gold 
+	Green 
+	Lime Green 
+	Orange 
+	Pink 
+	Purple 
+	Red 
+	Skyblue 
+	White 
+	Yellow 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

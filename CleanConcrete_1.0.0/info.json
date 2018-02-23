@@ -1,0 +1,9 @@
+{
+	"name":"CleanConcrete",
+	"version":"1.0.0",
+	"title":"Clean Concrete",
+	"author":"Tyrindor",
+	"description":"Removes all decorations when placing concrete or stone bricks.",
+	"factorio_version": "0.16",
+	"dependencies": ["base >= 0.16.0"]
+}

@@ -1,0 +1,6 @@
+# New in 1.2.4
+
+nothing :(
+(I have to figure out the new tile texture slicing code)
+
+Updated to Factorio .16

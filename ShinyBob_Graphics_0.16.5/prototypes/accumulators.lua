@@ -1,0 +1,10 @@
+
+picACCUMULATORS("large-accumulator"	,"accumulator-mk1h.png")
+picACCUMULATORS("fast-accumulator"	    	,"accumulator-mk1f.png")
+picACCUMULATORS("slow-accumulator"	    	,"accumulator-mk1s.png")
+picACCUMULATORS("large-accumulator-2"	,"accumulator-mk2h.png")
+picACCUMULATORS("fast-accumulator-2"	,"accumulator-mk2f.png")
+picACCUMULATORS("slow-accumulator-2"	,"accumulator-mk2s.png")
+picACCUMULATORS("large-accumulator-3"	,"accumulator-mk3h.png")
+picACCUMULATORS("fast-accumulator-3"	,"accumulator-mk3f.png")
+picACCUMULATORS("slow-accumulator-3"	,"accumulator-mk3s.png")

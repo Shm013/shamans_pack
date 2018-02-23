@@ -1,0 +1,8 @@
+require("prototypes.categories")
+require("prototypes.recipes.science")
+require("prototypes.recipes.facility")
+require("prototypes.recipes.particle-accelerator")
+require("prototypes.buildings.facility")
+require("prototypes.buildings.particle-accelerator")
+require("prototypes.overrides")
+require("prototypes.technology")

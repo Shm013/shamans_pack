@@ -1,0 +1,17 @@
+##VERSIONS:
+1.0.12	- change to freeze_daytime function becomes a boolean in 0.15.13
+1.0.11	- factorio 0.15 compatible
+1.0.10	- better reading of accu buffer capacity (when floating point number...)
+1.0.9	- increase accumulators buffer size to support longer nights (multiply by day_length_multiplier)
+1.0.8	- add an interface to enable/disable mod :
+			/c remote.call( "daynight", "on" )
+			/c remote.call( "daynight", "off" )
+		- add an interface to change multiplier :
+			/c remote.call( "daynight", "multi", 4 )
+1.0.7	- factorio 0.14 compatible
+1.1.6	- check all surfaces, and then unify day and night multipliers to simplify calculations and differences between surfaces. INtroduce config.lua. Default with x4	- 28 mins cycle.
+1.1.4	- relaxes frequency, adds always_day checking
+1.1.3	- update by Binbinhfr for factorio 0.13.x, published on portal
+1.1.2	- update by Mikenlott
+1.1.0	- update by Vizzy
+1.0.0	- original release by Dark

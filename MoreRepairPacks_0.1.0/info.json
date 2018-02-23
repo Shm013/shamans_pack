@@ -1,0 +1,11 @@
+{
+  "name": "MoreRepairPacks",
+  "version": "0.1.0",
+  "title": "More Repair Packs",
+  "author": "Kamsta99",
+  "contact": "kamsta99@gmail.com",
+  "factorio_version": "0.16",
+  "homepage": "",
+  "description": "This add 3 new repair packs, based on Bob's Materials.",
+  "dependencies": ["base >= 0.16.0", "boblibrary >= 0.16.3", "? bobores >= 0.16.2", "? bobplates >= 0.16.0"]
+}

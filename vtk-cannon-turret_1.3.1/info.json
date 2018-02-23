@@ -1,0 +1,10 @@
+{
+  "name": "vtk-cannon-turret",
+  "version": "1.3.1",
+  "title": "Cannon Turret",
+  "author": "VortiK",
+  "homepage": "",
+  "description": "Adds a cannon mounted turret and specific cannon shell magazine ammunition that doesn't collide.",
+  "factorio_version": "0.16",
+  "dependencies": ["base >= 0.16"]
+}

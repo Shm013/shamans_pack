@@ -1,0 +1,3 @@
+data.raw.recipe["advanced-oil-processing"].ingredients = {{type="fluid", name="crude-oil", amount=100},{type="fluid", name="steam", amount=50}}
+data.raw.recipe["heavy-oil-cracking"].ingredients = {{type="fluid", name="steam", amount=30},{type="fluid", name="heavy-oil", amount=40}}
+data.raw.recipe["light-oil-cracking"].ingredients = {{type="fluid", name="steam", amount=30},{type="fluid", name="light-oil", amount=30}}

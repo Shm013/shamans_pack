@@ -1,0 +1,11 @@
+{
+    "name": "NapalmArtillery",
+    "author": "MFerrari",
+    "version": "0.16.3",
+    "title": "Napalm Artillery",
+    "contact": "ferrarimaf@gmail.com",
+    "homepage":"",
+    "factorio_version": "0.16",
+    "dependencies": ["base >= 0.16"],
+    "description": "This mod adds Napalm Artillery shells"
+}

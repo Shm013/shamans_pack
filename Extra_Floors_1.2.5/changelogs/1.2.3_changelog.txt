@@ -1,0 +1,8 @@
+# New in 1.2.3
+
+- Added "titanium" and "Nitanol" arrow grates
+- All arrow grates have a 1x1 and a 2x2 style
+- Changed layer priority of arrow grates
+- New edge tiles for arrow grates
+- Alien metal Edges
+

@@ -1,0 +1,10 @@
+{
+  "name": "Diesel-Locomotive",
+  "version": "0.1.6",
+  "title": "Diesel Locomotive",
+  "author": "HJk",
+  "homepage": "https://forums.factorio.com/viewtopic.php?f=97&t=49949",
+  "description": "Adds a diesel locomotive that uses fluid oil as fuel",
+  "factorio_version": "0.16",
+  "dependencies": ["base >= 0.15.0", "?KS_Power"]
+}

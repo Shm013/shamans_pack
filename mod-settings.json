@@ -1,0 +1,614 @@
+{
+  "startup": {
+    "bobmods-assembly-chemicalplants": {
+      "value": true
+    },
+    "bobmods-assembly-electrolysers": {
+      "value": true
+    },
+    "bobmods-assembly-electronicmachines": {
+      "value": true
+    },
+    "bobmods-assembly-furnaces": {
+      "value": true
+    },
+    "bobmods-assembly-multipurposefurnaces": {
+      "value": true
+    },
+    "bobmods-assembly-oilrefineries": {
+      "value": true
+    },
+    "bobmods-enemies-aliensdropartifacts": {
+      "value": true
+    },
+    "bobmods-enemies-enableartifacts": {
+      "value": true
+    },
+    "bobmods-enemies-enablenewartifacts": {
+      "value": true
+    },
+    "bobmods-enemies-enablesmallartifacts": {
+      "value": true
+    },
+    "bobmods-inserters-long2": {
+      "value": true
+    },
+    "bobmods-inserters-more2": {
+      "value": true
+    },
+    "bobmods-logistics-drainlessinserters": {
+      "value": false
+    },
+    "bobmods-logistics-extremelyfastbelt": {
+      "value": true
+    },
+    "bobmods-logistics-flyingrobotframes": {
+      "value": true
+    },
+    "bobmods-logistics-roboportrecipeupdate": {
+      "value": true
+    },
+    "bobmods-logistics-robotparts": {
+      "value": true
+    },
+    "bobmods-logistics-robotrequireprevious": {
+      "value": true
+    },
+    "bobmods-mining-areadrills": {
+      "value": true
+    },
+    "bobmods-mining-miningaxes": {
+      "value": true
+    },
+    "bobmods-mining-miningdrills": {
+      "value": true
+    },
+    "bobmods-mining-pumpjacks": {
+      "value": true
+    },
+    "bobmods-mining-waterminers": {
+      "value": true
+    },
+    "bobmods-modules-enablegodmodules": {
+      "value": false
+    },
+    "bobmods-modules-enablegreenmodules": {
+      "value": true
+    },
+    "bobmods-modules-enableproductivitylimitation": {
+      "value": true
+    },
+    "bobmods-modules-enablerawproductivitymodules": {
+      "value": true
+    },
+    "bobmods-modules-enablerawspeedmodules": {
+      "value": true
+    },
+    "bobmods-modules-perlevel-bonus-consumption": {
+      "value": 0.1
+    },
+    "bobmods-modules-perlevel-bonus-pollution": {
+      "value": 0.15
+    },
+    "bobmods-modules-perlevel-bonus-pollutioncreate": {
+      "value": 0.5
+    },
+    "bobmods-modules-perlevel-bonus-productivity": {
+      "value": 0.05
+    },
+    "bobmods-modules-perlevel-bonus-speed": {
+      "value": 0.2
+    },
+    "bobmods-modules-perlevel-penalty-consumption": {
+      "value": 0.1
+    },
+    "bobmods-modules-perlevel-penalty-pollution": {
+      "value": 0.15
+    },
+    "bobmods-modules-perlevel-penalty-speed": {
+      "value": 0.05
+    },
+    "bobmods-modules-productivityhasspeed": {
+      "value": false
+    },
+    "bobmods-modules-start-bonus-consumption": {
+      "value": 0
+    },
+    "bobmods-modules-start-bonus-pollution": {
+      "value": 0
+    },
+    "bobmods-modules-start-bonus-pollutioncreate": {
+      "value": 0
+    },
+    "bobmods-modules-start-bonus-productivity": {
+      "value": 0
+    },
+    "bobmods-modules-start-bonus-speed": {
+      "value": 0
+    },
+    "bobmods-modules-start-penalty-consumption": {
+      "value": 0
+    },
+    "bobmods-modules-start-penalty-pollution": {
+      "value": 0
+    },
+    "bobmods-modules-start-penalty-speed": {
+      "value": 0.2
+    },
+    "bobmods-modules-transmitproductivity": {
+      "value": false
+    },
+    "bobmods-gems-amethystratio": {
+      "value": 0.5
+    },
+    "bobmods-gems-diamondratio": {
+      "value": 0.2
+    },
+    "bobmods-gems-emeraldratio": {
+      "value": 0.6
+    },
+    "bobmods-gems-rubyratio": {
+      "value": 1
+    },
+    "bobmods-gems-sapphireratio": {
+      "value": 0.8
+    },
+    "bobmods-gems-topazratio": {
+      "value": 0.4
+    },
+    "bobmods-ores-enablebauxite": {
+      "value": false
+    },
+    "bobmods-ores-enablecobaltore": {
+      "value": false
+    },
+    "bobmods-ores-enablegemsore": {
+      "value": false
+    },
+    "bobmods-ores-enablegoldore": {
+      "value": false
+    },
+    "bobmods-ores-enableleadore": {
+      "value": false
+    },
+    "bobmods-ores-enablenickelore": {
+      "value": false
+    },
+    "bobmods-ores-enablequartz": {
+      "value": false
+    },
+    "bobmods-ores-enablerutile": {
+      "value": false
+    },
+    "bobmods-ores-enablesilverore": {
+      "value": false
+    },
+    "bobmods-ores-enablesulfur": {
+      "value": false
+    },
+    "bobmods-ores-enablethoriumore": {
+      "value": false
+    },
+    "bobmods-ores-enabletinore": {
+      "value": false
+    },
+    "bobmods-ores-enabletungstenore": {
+      "value": false
+    },
+    "bobmods-ores-enablewaterores": {
+      "value": false
+    },
+    "bobmods-ores-enablezincore": {
+      "value": false
+    },
+    "bobmods-ores-enhancestone": {
+      "value": false
+    },
+    "bobmods-ores-gemprobability": {
+      "value": 0.05
+    },
+    "bobmods-ores-gemsfromotherores": {
+      "value": false
+    },
+    "bobmods-ores-infiniteore": {
+      "value": false
+    },
+    "bobmods-ores-leadgivesnickel": {
+      "value": false
+    },
+    "bobmods-ores-leadnickelratio": {
+      "value": 0.6
+    },
+    "bobmods-ores-nickelcobaltratio": {
+      "value": 0.4
+    },
+    "bobmods-ores-nickelgivescobalt": {
+      "value": false
+    },
+    "bobmods-ores-unsortedgemore": {
+      "value": false
+    },
+    "bobmods-plates-batteryupdate": {
+      "value": true
+    },
+    "bobmods-plates-cheapersteel": {
+      "value": true
+    },
+    "bobmods-plates-groundwater": {
+      "value": false
+    },
+    "bobmods-plates-inventorysize": {
+      "value": 60
+    },
+    "bobmods-plates-oreoverride": {
+      "value": true
+    },
+    "bobmods-plates-purewater": {
+      "value": true
+    },
+    "bobmods-plates-vanillabarrelling": {
+      "value": false
+    },
+    "bobmods-vehicleequipment-enablevehiclegrids": {
+      "value": true
+    },
+    "bobmods-warfare-drainlesslaserturrets": {
+      "value": false
+    },
+    "bobmods-warfare-robotupdate": {
+      "value": true
+    },
+    "angels-enable-icon-scaling-warehouses": {
+      "value": false
+    },
+    "angels-enable-converter": {
+      "value": true
+    },
+    "angels-hide-converter": {
+      "value": true
+    },
+    "angels-enable-acids": {
+      "value": true
+    },
+    "angels-enable-auto-barreling": {
+      "value": false
+    },
+    "angels-marathon-buildingmulti": {
+      "value": 2
+    },
+    "angels-marathon-buildingtime": {
+      "value": 2
+    },
+    "angels-marathon-intermediatemulti": {
+      "value": 1
+    },
+    "angels-marathon-rawmulti": {
+      "value": 1
+    },
+    "AR-use-items-from-bioindustries": {
+      "value": true
+    },
+    "AR-easy-research": {
+      "value": false
+    },
+    "AR-asphalt-stack-size": {
+      "value": 100
+    },
+    "AR-item-group": {
+      "value": "logistics"
+    },
+    "Clockwork-enable-flares": {
+      "value": true
+    },
+    "Clockwork-mod-accumulators": {
+      "value": true
+    },
+    "Clockwork-mod-accumulators-capacity": {
+      "value": 4
+    },
+    "dectorio-landscaping": {
+      "value": true
+    },
+    "dectorio-waterfill": {
+      "value": true
+    },
+    "dectorio-decoratives": {
+      "value": true
+    },
+    "dectorio-flooring": {
+      "value": true
+    },
+    "dectorio-gravel": {
+      "value": true
+    },
+    "dectorio-painted-concrete": {
+      "value": true
+    },
+    "dectorio-walls": {
+      "value": true
+    },
+    "dectorio-signs": {
+      "value": true
+    },
+    "dectorio-signals": {
+      "value": true
+    },
+    "dectorio-item-group": {
+      "value": true
+    },
+    "dectorio-vanilla-hazard-concrete-style": {
+      "value": false
+    },
+    "dectorio-landscaping-blueprintable": {
+      "value": false
+    },
+    "dectorio-decorative-removal-probability": {
+      "value": 1
+    },
+    "dectorio-flooring-stack-size": {
+      "value": 500
+    },
+    "dectorio-landscaping-stack-size": {
+      "value": 500
+    },
+    "dectorio-walls-stack-size": {
+      "value": 200
+    },
+    "map-ping-duration-ticks": {
+      "value": 480
+    },
+    "settings-napalm-art-area": {
+      "value": 35
+    },
+    "settings-napalm-art-clusters": {
+      "value": 200
+    },
+    "usecolorbars": {
+      "value": true
+    },
+    "usecoloricons": {
+      "value": true
+    },
+    "add-powerbars": {
+      "value": true
+    },
+    "combat-icons": {
+      "value": true
+    },
+    "new-furnaces": {
+      "value": true
+    },
+    "replace-assemblycolors": {
+      "value": true
+    },
+    "replace-circuits": {
+      "value": true
+    },
+    "switch_green_purple_belts": {
+      "value": true
+    },
+    "change_ores": {
+      "value": true
+    },
+    "color-picker16_make-color-pastable-between-wagon-and-others": {
+      "value": true
+    },
+    "color-picker16_add-color-mask-to-fluid-wagon": {
+      "value": true
+    },
+    "pcp-glass-sink": {
+      "value": false
+    },
+    "Teleportation-telelogistics-enabled": {
+      "value": false
+    },
+    "BI_Bio_Cannon": {
+      "value": true
+    },
+    "BI_Bio_Fuel": {
+      "value": true
+    },
+    "BI_Recipe_Tweaks": {
+      "value": true
+    },
+    "BI_Solar_Farm": {
+      "value": true
+    },
+    "BI_Alt_Solar_Farm_Image": {
+      "value": false
+    },
+    "BI_Accumulator": {
+      "value": true
+    },
+    "kaoextended-overide": {
+      "value": true
+    },
+    "crated-ammo-boost": {
+      "value": 10
+    },
+    "deconstruct-flesh": {
+      "value": true
+    },
+    "deconstruct-flesh-timer": {
+      "value": 10
+    },
+    "flesh-unit-drops": {
+      "value": true
+    },
+    "radiation-timer": {
+      "value": 15
+    },
+    "rotting-flesh": {
+      "value": true
+    },
+    "space-nukes": {
+      "value": false
+    },
+    "space-plasma": {
+      "value": false
+    }
+  },
+  "runtime-global": {
+    "Clockwork-cycle-length": {
+      "value": 4
+    },
+    "Clockwork-dusk": {
+      "value": 0.25
+    },
+    "Clockwork-evening": {
+      "value": 0.45
+    },
+    "Clockwork-morning": {
+      "value": 0.55
+    },
+    "Clockwork-dawn": {
+      "value": 0.75
+    },
+    "Clockwork-permanight": {
+      "value": false
+    },
+    "Clockwork-permanight-grace": {
+      "value": 0
+    },
+    "map-ping-lockout-ticks": {
+      "value": 120
+    },
+    "more-biters-disable-explosive": {
+      "value": false
+    },
+    "more-biters-disable-leech": {
+      "value": false
+    },
+    "more-biters-disable-tunnel": {
+      "value": false
+    },
+    "orphan-finder-search-range": {
+      "value": 100
+    },
+    "helmod_debug": {
+      "value": "none"
+    },
+    "helmod_debug_filter": {
+      "value": "all"
+    },
+    "helmod_format_number_element": {
+      "value": "0.0"
+    },
+    "helmod_format_number_factory": {
+      "value": "0"
+    },
+    "helmod_display_all_sheet": {
+      "value": false
+    },
+    "helmod_display_real_name": {
+      "value": false
+    },
+    "helmod_display_data_col_index": {
+      "value": false
+    },
+    "helmod_display_data_col_id": {
+      "value": false
+    },
+    "helmod_display_data_col_name": {
+      "value": false
+    },
+    "helmod_display_data_col_type": {
+      "value": false
+    },
+    "helmod_filter_on_text_changed": {
+      "value": false
+    },
+    "helmod_model_filter_factory": {
+      "value": true
+    },
+    "helmod_model_filter_beacon": {
+      "value": true
+    },
+    "helmod_model_filter_generator": {
+      "value": true
+    },
+    "helmod_model_filter_factory_module": {
+      "value": true
+    },
+    "helmod_model_filter_beacon_module": {
+      "value": true
+    },
+    "helmod_properties_tab": {
+      "value": false
+    },
+    "nixie-tube-update-speed-alpha": {
+      "value": 10
+    },
+    "nixie-tube-update-speed-numeric": {
+      "value": 5
+    },
+    "Teleportation-all-beacons-for-all": {
+      "value": false
+    }
+  },
+  "runtime-per-user": {
+    "map-ping-clean-inventory": {
+      "value": false
+    },
+    "todolist-show-log": {
+      "value": false
+    },
+    "todolist-show-minimized": {
+      "value": true
+    },
+    "todolist-window-height": {
+      "value": 600
+    },
+    "color-picker16_enable-player-color-picker": {
+      "value": true
+    },
+    "color-picker16_enable-train-stop-color-picker": {
+      "value": true
+    },
+    "color-picker16_enable-locomotive-color-picker": {
+      "value": true
+    },
+    "color-picker16_enable-cargo-wagon-color-picker": {
+      "value": true
+    },
+    "color-picker16_enable-fluid-wagon-color-picker": {
+      "value": true
+    },
+    "helmod_default_factory_level": {
+      "value": "last"
+    },
+    "helmod_display_size": {
+      "value": "1680x1050"
+    },
+    "helmod_display_size_free": {
+      "value": ""
+    },
+    "helmod_display_main_icon": {
+      "value": true
+    },
+    "helmod_display_location": {
+      "value": "center"
+    },
+    "helmod_display_cell_mod": {
+      "value": "default"
+    },
+    "helmod_display_product_cols": {
+      "value": 5
+    },
+    "helmod_display_ingredient_cols": {
+      "value": 5
+    },
+    "helmod_row_move_step": {
+      "value": 5
+    },
+    "Teleportation-page-size": {
+      "value": 20
+    },
+    "Teleportation-straight-jump-ignores-collisions": {
+      "value": false
+    },
+    "render-quality": {
+      "value": 3
+    }
+  }
+}

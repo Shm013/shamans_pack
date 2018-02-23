@@ -1,0 +1,22 @@
+if not kaoextended then kaoextended = {} end
+if not kaoextended.settingoveride then kaoextended.settingoverride = {} end
+kaoextended.settingsoveride = settings.startup["kaoextended-overide"].value
+
+require("prototypes.alien-artifact")
+require("prototypes.override_machine")
+require("prototypes.morestack")
+require("library.technology")
+require("library.recipe")
+
+require("prototypes.advtech.item")
+require("prototypes.advtech.recipe")
+require("prototypes.advtech.override_recipe")
+
+require("prototypes.structurecomponents.item")
+require("prototypes.structurecomponents.override")
+
+require("prototypes.undergroundbelt.item")
+require("prototypes.undergroundbelt.recipe")
+require("prototypes.undergroundbelt.technology")
+require("prototypes.undergroundbelt.entity")
+require("prototypes.undergroundbelt.override")

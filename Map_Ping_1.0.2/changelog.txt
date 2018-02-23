@@ -1,0 +1,33 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 8. 2. 2018
+  Major Features:
+    - Added a hotkey to quickly access the Map Ping Tool (Shift+P by default).
+    - Added a per-player setting to keep your inventory/quickbar clean of ping tools, allowing you to rely entirely on the hotkey to ping the map rather than consuming an quickbar/inventory slot with the ping tool.
+  Bugfixes:
+    - Fixed compatibility with certain niche reach-distance mods.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 23. 1. 2018
+  Changes:
+    - Switch to new play_sound() function rather than spawning "explosion"-type entities to play sounds.
+    - Behind-the-scenes performance optimizations.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 17. 1. 2018
+  Changes:
+    - Updated for Factorio 0.16.
+  Minor Features:
+    - Map pings will now show a custom alert, like the alerts for destroyed structures et al.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 27. 6. 2017
+  Changes:
+    - Updated for Factorio 0.15.
+    - Moved options from config.lua to the in-game mod settings.
+    - Switched from using a train stop to show the ping location on the map to 0.15's new custom map marker feature.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0 - First public release
+Date: 21. 10. 2016
+  Major Features:
+    - Initial release, featuring a Ping Tool that can highlight areas or entities on the map for your teammates.
